@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>영상 데이터 표시</title>
+</head>
+<body>
+  <h1>영상 데이터 표시</h1>
+  <video id="videoFrame" autoplay playsinline></video>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+
+    navigator.mediaDevices.getUserMedia({ video: true })
+      .then((stream) => {
+        const video = document.getElementById('videoFrame');
+        video.srcObject = stream;
+
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+
+        setInterval(() => {
+          ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+          const dataUrl = canvas.toDataURL('image/jpeg');
+          socket.emit('webcamData', dataUrl);
+        }, 1000 / 30);
+      })
+      .catch((error) => {
+        console.error('웹캠 데이터를 받아오는 중 오류 발생:', error);
+      });
+
+    socket.on('webcamData', (dataUrl) => {
+      const videoFrame = document.getElementById('videoFrame');
+      videoFrame.src = dataUrl;
+    });
+  </script>
+</body>
+</html>
