@@ -1,6 +1,6 @@
 # Seong Hyeon
-backend/node_modules/
 backend/darknet/
+backend/node_modules/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
