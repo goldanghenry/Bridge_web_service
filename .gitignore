@@ -1,5 +1,6 @@
 # Seong Hyeon
-YOLO/IMG_Lableling/
+backend/node_modules/
+backend/darknet/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
