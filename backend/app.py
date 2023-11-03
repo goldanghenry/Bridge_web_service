@@ -6,6 +6,7 @@ import cv2
 import numpy as np
 from darknet import *
 
+
 app = Flask(__name__)
 
 
