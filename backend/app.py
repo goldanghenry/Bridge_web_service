@@ -1,6 +1,11 @@
+# cd backend/darknet
+
 from flask import Flask, request, jsonify
 from flask_socketio import SocketIO
 import cv2
+import numpy as np
+from darknet import *
+
 
 app = Flask(__name__)
 
@@ -9,6 +14,7 @@ app = Flask(__name__)
 yolo_cfg = 'path_to_yolo_cfg_file.cfg'
 
 yolo_weights = 'path_to_yolo_weights.weights'
+
 
 net = cv2.dnn.readNet(yolo_cfg, yolo_weights)
 
