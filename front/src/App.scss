@@ -1,0 +1,25 @@
+.Main-Header{
+  border : 2px solid black;
+  height : 100px;
+  .logo{
+    border : 1px solid black;
+    height : 50px;
+    width : 100px;
+    position : absolute;
+    left: 30px;
+    top: 25px;
+  }
+  .login-text{
+    border: 1px solid black;
+    height : 30px;
+    width: 80px;
+    position : absolute;
+    right: 20px;
+    top : 60px;
+  }
+}
+
+.Mainpage {
+  height : 800px;
+  border : 2px solid black;
+}
