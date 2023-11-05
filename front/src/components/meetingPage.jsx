@@ -9,7 +9,7 @@ function MeetPage(){
     const [isChatOpen, setChatOpen] = useState(false);
     const [isMicOpen, setMicOpen] = useState(false);
     const [isCameraOpen, setCameraOpen] = useState(false);
-    const [callEnd, setCallEnd] = useState(false);
+    //const [callEnd, setCallEnd] = useState(false);
 
     const toggleChat = () => {
         console.log(isChatOpen);
@@ -61,6 +61,10 @@ function MeetPage(){
                             <div className="user1">
                                 <div className="user1-name">user1</div>
                                 <div className="user1-message"></div>
+                            </div>
+                            <div className="user2">
+                                <div className="user2-message"></div>
+                                <div className="user2-name">user2</div>
                             </div>
                         </div>
                     </div>
