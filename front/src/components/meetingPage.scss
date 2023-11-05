@@ -4,138 +4,147 @@
     //border: 1px solid black;
     height: 100vh;
     width:100vw;
-    .head{
-        //border:1px solid black;
-        height: 8%;
-        display: flex;
-        align-items: center;
-        .logo{
+    display:flex;
+    justify-content: center;
+    //align-items: center;
+    .head-body-functions{
+        .head{
             //border:1px solid black;
-            width:70px;
+            height: 8%;
             display: flex;
+            align-items: center;
+            .logo{
+                //border:1px solid black;
+                width:70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left:5px;
+                .logoImage{
+                    height: 50px;
+                }
+            }
+            .title{
+                //border: 1px solid black;
+                font-family: RacingSansOne-Regular;
+                font-size: 40px;
+                color:#2C90C8;
+                margin-left:5px;
+            }
+        }
+        .body{
+            border:1px solid black;
+            height:82%;
+            display:flex;
             justify-content: center;
             align-items: center;
-            margin-left:5px;
-            .logoImage{
-                height: 50px;
+            .peer1Video{
+                border:1px solid black;
+                height: 650px;
+                width: 650px;
+                margin-right: 100px;
+            }
+            .peer2Video{
+                border:1px solid black;
+                height: 650px;
+                width: 650px;
+                margin-left: 100px;
             }
         }
-        .title{
+        .functions{
             //border: 1px solid black;
-            font-family: RacingSansOne-Regular;
-            font-size: 40px;
-            color:#2C90C8;
-            margin-left:5px;
+            height: 9%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            .cameraBtnDiv{
+                padding-left:30px;
+                padding-right:30px;
+                //border: 1px solid black;
+                .cameraBtn{
+                    width:75px;
+                    height: 59px;
+                    border-radius: 20px;
+                    border:0;
+                    background-color: #A3D0F1;
+                    .cameraIcon{
+                        color: white;
+                        width: 40px;
+                        height : 36px;
+                    }
+                }
+            }
+            .micBtnDiv{
+                padding-left:30px;
+                padding-right:30px;
+                //border: 1px solid black;
+                .micBtn{
+                    width:75px;
+                    height: 59px;
+                    border-radius: 20px;
+                    border:0;
+                    background-color: #A3D0F1;
+                    .micIcon{
+                        color: white;
+                        width: 35px;
+                        height : 31px;
+                    }
+                }
+            }
+            .textBtnDiv{
+                padding-left:30px;
+                padding-right:30px;
+                //border: 1px solid black;
+                .textBtn{
+                    width:75px;
+                    height: 59px;
+                    border-radius: 20px;
+                    border:0;
+                    background-color: #A3D0F1;
+                    .textIcon{
+                        color: white;
+                        padding-top:5px;
+                        width: 35px;
+                        height : 31px;
+                    }
+                }
+            }
+            .endBtnDiv{
+                padding-left:30px;
+                padding-right:30px;
+                //border: 1px solid black;
+                .endBtn{
+                    width:75px;
+                    height: 59px;
+                    border-radius: 20px;
+                    border:0;
+                    background-color: #CD0000;
+                    .endIcon{
+                        color: white;
+                        width: 40px;
+                        height : 36px;
+                    }
+                }
+            }
         }
     }
-    .body{
-        border:1px solid black;
-        height:82%;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        .peer1Video{
-            border:1px solid black;
-            height: 650px;
-            width: 650px;
-            margin-right: 100px;
-        }
-        .peer2Video{
-            border:1px solid black;
-            height: 650px;
-            width: 650px;
-            margin-left: 100px;
-        }
-        .chatBox {
-            width: 0;
-            height: 0;
-            background-color: #f0f0f0;
-            overflow: auto;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            transition: width 0.3s;
-        }
-        .chatBoxOpen {
-            width: 400px;
-            border: 1px solid black;
-            height : 100%;
-            transition: width 0.3s;
-        }
+    .chatBox {
+        display: none;
+        width: 0;
+        height: 100%;
+        background-color: #f0f0f0;
+        overflow: auto;
+        border: 1px solid black;
+        border-radius: 5px;
+        transform: translateX(100%); /* 요소를 오른쪽으로 이동 */
+        transition: transform 0.3s;
     }
-    .functions{
-        //border: 1px solid black;
-        height: 9%;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        .cameraBtnDiv{
-            padding-left:30px;
-            padding-right:30px;
-            //border: 1px solid black;
-            .cameraBtn{
-                width:75px;
-                height: 59px;
-                border-radius: 20px;
-                border:0;
-                background-color: #A3D0F1;
-                .cameraIcon{
-                    color: white;
-                    width: 40px;
-                    height : 36px;
-                }
-            }
-        }
-        .micBtnDiv{
-            padding-left:30px;
-            padding-right:30px;
-            //border: 1px solid black;
-            .micBtn{
-                width:75px;
-                height: 59px;
-                border-radius: 20px;
-                border:0;
-                background-color: #A3D0F1;
-                .micIcon{
-                    color: white;
-                    width: 35px;
-                    height : 31px;
-                }
-            }
-        }
-        .textBtnDiv{
-            padding-left:30px;
-            padding-right:30px;
-            //border: 1px solid black;
-            .textBtn{
-                width:75px;
-                height: 59px;
-                border-radius: 20px;
-                border:0;
-                background-color: #A3D0F1;
-                .textIcon{
-                    color: white;
-                    padding-top:5px;
-                    width: 35px;
-                    height : 31px;
-                }
-            }
-        }
-        .endBtnDiv{
-            padding-left:30px;
-            padding-right:30px;
-            //border: 1px solid black;
-            .endBtn{
-                width:75px;
-                height: 59px;
-                border-radius: 20px;
-                border:0;
-                background-color: #CD0000;
-                .endIcon{
-                    color: white;
-                    width: 40px;
-                    height : 36px;
-                }
-            }
-        }
+    
+    .chatBoxOpen {
+        display: block;
+        width: 400px;
+        height: 100%;
+        transform: translateX(0); /* 원래 위치로 이동하여 나타나게 함 */
+        transition: transform 0.3s;
     }
 }
