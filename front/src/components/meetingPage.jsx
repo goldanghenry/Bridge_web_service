@@ -56,6 +56,7 @@ function MeetPage(){
                 <div className="chatBoxOpen">
                     <div className="chatBoxstyle">
                         <div className="chat-head">회의메세지</div>
+                        <div className="chatLine"></div>
                     </div>
                 </div>
             )}
