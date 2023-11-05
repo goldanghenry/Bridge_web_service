@@ -33,22 +33,26 @@
             }
         }
         .body{
-            border:1px solid black;
+            //border:1px solid black;
             height:82%;
             display:flex;
             justify-content: center;
             align-items: center;
+            padding-left: 20px;
+            padding-right:10px;
             .peer1Video{
                 border:1px solid black;
                 height: 650px;
                 width: 650px;
-                margin-right: 100px;
+                margin-right: 90px;
+                border-radius: 20px;
             }
             .peer2Video{
                 border:1px solid black;
                 height: 650px;
                 width: 650px;
-                margin-left: 100px;
+                margin-left: 90px;
+                border-radius: 20px;
             }
         }
         .functions{
@@ -134,23 +138,35 @@
         height: 100%;
         overflow: auto;
         transform: translateX(100%); 
-        transition: transform 0.3s;
+        transition: transform 1s;
     }
     .chatBoxOpen {
         display: block;
-        width: 405px;
+        width: 410px;
         height: 99%;
         transform: translateX(0); 
-        transition: transform 0.3s;
+        transition: transform 1s;
         display:flex;
         align-items: center;
         justify-content: center;
         //border:1px solid red;
         .chatBoxstyle{
-            width: 385px;
+            width: 375px;
             height: 95%;
             border-radius:20px;
-            border: 1px solid black;
+            background-color: #FFFFFF;
+            box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.3);
+            .chat-head{
+                margin: 20px 40px 10px 40px;
+                //border: 1px solid black;
+                height: 6%;
+                font-family: RacingSansOne-Regular;
+                font-weight:bold;
+                font-size: 25px;
+                color: black;
+                display: flex; /* 요소를 플렉스 박스로 설정 */
+                align-items: center; 
+            }
         }
     }
 }

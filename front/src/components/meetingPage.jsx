@@ -54,7 +54,9 @@ function MeetPage(){
             </div>
             {isChatOpen && (
                 <div className="chatBoxOpen">
-                    <div className="chatBoxstyle"></div>
+                    <div className="chatBoxstyle">
+                        <div className="chat-head">회의메세지</div>
+                    </div>
                 </div>
             )}
             {!isChatOpen && (
