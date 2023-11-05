@@ -171,6 +171,37 @@
                 margin: 20px 20px 10px 20px;
                 border-bottom:1px solid gray;
             }
+            .chat-message{
+                border: 1px solid black;
+                margin: 20px 10px 20px 10px;
+                width: 355px;
+                height: 83%;
+                overflow: hidden;
+                display:flex;
+                justify-content: center;
+                .user1{
+                    border: 1px solid black;
+                    width: 335px;
+                    height: 30%;
+                    margin : 10px 0px 10px 0px;
+                    overflow: auto;
+                    display:flex;
+                    justify-content: center;
+                    //align-items: center;
+                    .user1-name{
+                        border: 1px solid black;
+                        width: 70px;
+                        height: 20%;
+                        margin-right:10px;
+                    }
+                    .user1-message{
+                        margin-left:10px;
+                        width: 245px;
+                        border: 1px solid black;
+                        border-radius: 20px;
+                    }
+                }
+            }
         }
     }
 }
