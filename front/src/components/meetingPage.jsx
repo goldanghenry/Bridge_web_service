@@ -50,11 +50,12 @@ function MeetPage(){
                     <div className="endBtnDiv">
                         <button className="endBtn"><MdCallEnd className="endIcon"></MdCallEnd></button>
                     </div>
-                    
                 </div>
             </div>
             {isChatOpen && (
-                <div className="chatBoxOpen"></div>
+                <div className="chatBoxOpen">
+                    <div className="chatBoxstyle"></div>
+                </div>
             )}
             {!isChatOpen && (
                 <div className="chatBox"></div>

@@ -132,19 +132,25 @@
         display: none;
         width: 0;
         height: 100%;
-        background-color: #f0f0f0;
         overflow: auto;
-        border: 1px solid black;
-        border-radius: 5px;
-        transform: translateX(100%); /* 요소를 오른쪽으로 이동 */
+        transform: translateX(100%); 
         transition: transform 0.3s;
     }
-    
     .chatBoxOpen {
         display: block;
-        width: 400px;
-        height: 100%;
-        transform: translateX(0); /* 원래 위치로 이동하여 나타나게 함 */
+        width: 405px;
+        height: 99%;
+        transform: translateX(0); 
         transition: transform 0.3s;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        //border:1px solid red;
+        .chatBoxstyle{
+            width: 385px;
+            height: 95%;
+            border-radius:20px;
+            border: 1px solid black;
+        }
     }
 }
