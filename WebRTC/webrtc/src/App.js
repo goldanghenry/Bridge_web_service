@@ -6,7 +6,11 @@ function App() {
   const localVideoRef = useRef(null);
   const remoteVideoRef = useRef(null);
   const [socket, setSocket] = useState(null);
-  const peerConnection = useRef(new RTCPeerConnection());
+
+  const peerConnectionConfig = {
+    iceServers: [{ urls: "stun:stun.l.google.com:19302" }],
+  };
+  const peerConnection = useRef(new RTCPeerConnection(peerConnectionConfig));
 
   useEffect(() => {
     const newSocket = io("https://localhost:3001", {
