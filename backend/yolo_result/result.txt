@@ -1,0 +1,1905 @@
+ CUDNN_HALF=1 
+net.optimized_memory = 0 
+mini_batch = 1, batch = 16, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 2643 K-images (41 Kilo-batches_64) 
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_19.jpg: Predicted in 629.162000 milli-seconds.
+likely_2: 100%	(left_x:  126   top_y:   74   width:  107   height:  247)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_21.jpg: Predicted in 2.745000 milli-seconds.
+end: 100%	(left_x:  117   top_y:  185   width:  165   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_16.jpg: Predicted in 2.271000 milli-seconds.
+end: 100%	(left_x:  117   top_y:  175   width:  166   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_12.jpg: Predicted in 2.150000 milli-seconds.
+end: 100%	(left_x:   50   top_y:  146   width:  327   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_19.jpg: Predicted in 2.223000 milli-seconds.
+end: 100%	(left_x:  116   top_y:  184   width:  165   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_23.jpg: Predicted in 2.120000 milli-seconds.
+end: 100%	(left_x:  116   top_y:  185   width:  166   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_29.jpg: Predicted in 2.197000 milli-seconds.
+end: 100%	(left_x:  117   top_y:  185   width:  162   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_27.jpg: Predicted in 2.145000 milli-seconds.
+end: 100%	(left_x:  118   top_y:  186   width:  162   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_31.jpg: Predicted in 2.277000 milli-seconds.
+end: 100%	(left_x:  115   top_y:  187   width:  165   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_37.jpg: Predicted in 2.133000 milli-seconds.
+end: 100%	(left_x:   44   top_y:  154   width:  302   height:  146)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_39.jpg: Predicted in 2.114000 milli-seconds.
+end: 100%	(left_x:   55   top_y:  172   width:  304   height:  118)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_40.jpg: Predicted in 2.098000 milli-seconds.
+end: 100%	(left_x:   56   top_y:  174   width:  303   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_42.jpg: Predicted in 2.359000 milli-seconds.
+end: 100%	(left_x:   37   top_y:  171   width:  305   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_44.jpg: Predicted in 2.293000 milli-seconds.
+end: 99%	(left_x:   -8   top_y:  175   width:  396   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_43.jpg: Predicted in 2.165000 milli-seconds.
+end: 100%	(left_x:   39   top_y:  169   width:  302   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_41.jpg: Predicted in 2.381000 milli-seconds.
+end: 100%	(left_x:   37   top_y:  174   width:  306   height:  118)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_47.jpg: Predicted in 2.148000 milli-seconds.
+end: 100%	(left_x:   89   top_y:  184   width:  216   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_45.jpg: Predicted in 2.154000 milli-seconds.
+end: 100%	(left_x:   33   top_y:  161   width:  325   height:  142)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_46.jpg: Predicted in 2.206000 milli-seconds.
+end: 100%	(left_x:   59   top_y:  170   width:  275   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_49.jpg: Predicted in 2.277000 milli-seconds.
+end: 100%	(left_x:  115   top_y:  204   width:  162   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_48.jpg: Predicted in 2.225000 milli-seconds.
+end: 99%	(left_x:  110   top_y:  189   width:  172   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_52.jpg: Predicted in 2.199000 milli-seconds.
+end: 100%	(left_x:  113   top_y:  200   width:  153   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_75.jpg: Predicted in 2.160000 milli-seconds.
+end: 100%	(left_x:  100   top_y:   74   width:  194   height:  164)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_56.jpg: Predicted in 2.236000 milli-seconds.
+end: 100%	(left_x:  108   top_y:  202   width:  156   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_60.jpg: Predicted in 2.179000 milli-seconds.
+end: 100%	(left_x:   99   top_y:  171   width:  168   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_76.jpg: Predicted in 2.149000 milli-seconds.
+end: 100%	(left_x:  105   top_y:   82   width:  185   height:  168)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_117.jpg: Predicted in 2.198000 milli-seconds.
+end: 100%	(left_x:   47   top_y:  175   width:  271   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_102.jpg: Predicted in 2.421000 milli-seconds.
+end: 100%	(left_x:  101   top_y:  192   width:  169   height:  143)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_77.jpg: Predicted in 2.362000 milli-seconds.
+end: 100%	(left_x:  103   top_y:   82   width:  185   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_116.jpg: Predicted in 2.231000 milli-seconds.
+end: 100%	(left_x:   92   top_y:  188   width:  188   height:  140)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_121.jpg: Predicted in 2.118000 milli-seconds.
+end: 100%	(left_x:   58   top_y:  173   width:  292   height:  145)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_120.jpg: Predicted in 2.254000 milli-seconds.
+end: 100%	(left_x:   36   top_y:  175   width:  302   height:  141)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_123.jpg: Predicted in 2.523000 milli-seconds.
+end: 100%	(left_x:   59   top_y:  173   width:  289   height:  148)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_122.jpg: Predicted in 2.254000 milli-seconds.
+end: 100%	(left_x:   57   top_y:  175   width:  293   height:  145)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_126.jpg: Predicted in 2.264000 milli-seconds.
+end: 100%	(left_x:   50   top_y:  146   width:  298   height:  177)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_130.jpg: Predicted in 2.272000 milli-seconds.
+end: 100%	(left_x:  109   top_y:  163   width:  173   height:  147)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_146.jpg: Predicted in 2.287000 milli-seconds.
+end: 100%	(left_x:   46   top_y:  175   width:  333   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_129.jpg: Predicted in 2.338000 milli-seconds.
+end: 100%	(left_x:  111   top_y:  160   width:  171   height:  150)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_150.jpg: Predicted in 2.239000 milli-seconds.
+end: 100%	(left_x:   48   top_y:  182   width:  328   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_148.jpg: Predicted in 2.398000 milli-seconds.
+end: 100%	(left_x:   35   top_y:  182   width:  357   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_147.jpg: Predicted in 2.311000 milli-seconds.
+end: 100%	(left_x:   40   top_y:  177   width:  345   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_153.jpg: Predicted in 2.302000 milli-seconds.
+end: 100%	(left_x:  108   top_y:  187   width:  195   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_154.jpg: Predicted in 2.249000 milli-seconds.
+end: 100%	(left_x:  127   top_y:  196   width:  155   height:  118)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_155.jpg: Predicted in 2.257000 milli-seconds.
+end: 100%	(left_x:  129   top_y:  194   width:  153   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_156.jpg: Predicted in 2.236000 milli-seconds.
+end: 100%	(left_x:  133   top_y:  197   width:  150   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_157.jpg: Predicted in 2.335000 milli-seconds.
+end: 100%	(left_x:  131   top_y:  199   width:  150   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_159.jpg: Predicted in 2.610000 milli-seconds.
+end: 100%	(left_x:  129   top_y:  201   width:  152   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_158.jpg: Predicted in 2.734000 milli-seconds.
+end: 100%	(left_x:  130   top_y:  199   width:  152   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_161.jpg: Predicted in 2.311000 milli-seconds.
+end: 100%	(left_x:  127   top_y:  200   width:  153   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_162.jpg: Predicted in 2.407000 milli-seconds.
+end: 100%	(left_x:  127   top_y:  199   width:  153   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_163.jpg: Predicted in 2.315000 milli-seconds.
+end: 100%	(left_x:  127   top_y:  197   width:  155   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_160.jpg: Predicted in 2.272000 milli-seconds.
+end: 100%	(left_x:  129   top_y:  201   width:  151   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_164.jpg: Predicted in 2.285000 milli-seconds.
+end: 100%	(left_x:  125   top_y:  193   width:  159   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_166.jpg: Predicted in 2.272000 milli-seconds.
+end: 100%	(left_x:   88   top_y:  185   width:  225   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_165.jpg: Predicted in 2.403000 milli-seconds.
+end: 100%	(left_x:  108   top_y:  193   width:  189   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_170.jpg: Predicted in 2.314000 milli-seconds.
+end: 100%	(left_x:   55   top_y:  189   width:  309   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_168.jpg: Predicted in 2.392000 milli-seconds.
+end: 100%	(left_x:   51   top_y:  179   width:  307   height:  136)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_169.jpg: Predicted in 2.240000 milli-seconds.
+end: 100%	(left_x:   35   top_y:  183   width:  339   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_167.jpg: Predicted in 2.227000 milli-seconds.
+end: 100%	(left_x:   74   top_y:  182   width:  259   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_174.jpg: Predicted in 2.201000 milli-seconds.
+end: 100%	(left_x:   56   top_y:  195   width:  314   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_172.jpg: Predicted in 2.249000 milli-seconds.
+end: 100%	(left_x:   45   top_y:  193   width:  334   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_173.jpg: Predicted in 2.163000 milli-seconds.
+end: 100%	(left_x:   49   top_y:  194   width:  323   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_171.jpg: Predicted in 2.214000 milli-seconds.
+end: 100%	(left_x:   51   top_y:  192   width:  320   height:  115)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_177.jpg: Predicted in 2.337000 milli-seconds.
+end: 100%	(left_x:   77   top_y:  183   width:  255   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_178.jpg: Predicted in 2.331000 milli-seconds.
+end: 100%	(left_x:  106   top_y:  189   width:  197   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_175.jpg: Predicted in 2.473000 milli-seconds.
+end: 100%	(left_x:   64   top_y:  192   width:  296   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_176.jpg: Predicted in 2.228000 milli-seconds.
+end: 100%	(left_x:   38   top_y:  183   width:  339   height:  136)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_179.jpg: Predicted in 2.084000 milli-seconds.
+end: 100%	(left_x:  113   top_y:  193   width:  178   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_180.jpg: Predicted in 2.346000 milli-seconds.
+end: 100%	(left_x:  123   top_y:  197   width:  161   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_181.jpg: Predicted in 2.205000 milli-seconds.
+end: 100%	(left_x:  120   top_y:  204   width:  163   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_183.jpg: Predicted in 2.263000 milli-seconds.
+end: 100%	(left_x:  118   top_y:  204   width:  165   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_184.jpg: Predicted in 2.201000 milli-seconds.
+end: 100%	(left_x:  118   top_y:  203   width:  164   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_185.jpg: Predicted in 2.361000 milli-seconds.
+end: 100%	(left_x:  117   top_y:  202   width:  166   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_186.jpg: Predicted in 2.171000 milli-seconds.
+end: 100%	(left_x:  117   top_y:  202   width:  165   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_195.jpg: Predicted in 2.176000 milli-seconds.
+end: 100%	(left_x:   52   top_y:  136   width:  322   height:  115)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_187.jpg: Predicted in 2.220000 milli-seconds.
+end: 100%	(left_x:  116   top_y:  201   width:  165   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_197.jpg: Predicted in 2.202000 milli-seconds.
+end: 100%	(left_x:   53   top_y:  137   width:  321   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_188.jpg: Predicted in 2.094000 milli-seconds.
+end: 100%	(left_x:  118   top_y:  197   width:  167   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_199.jpg: Predicted in 2.238000 milli-seconds.
+end: 100%	(left_x:   54   top_y:  131   width:  310   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_201.jpg: Predicted in 2.051000 milli-seconds.
+end: 100%	(left_x:   77   top_y:  118   width:  247   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_224.jpg: Predicted in 2.158000 milli-seconds.
+end: 100%	(left_x:   37   top_y:  218   width:  339   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_205.jpg: Predicted in 2.195000 milli-seconds.
+end: 99%	(left_x:  121   top_y:  134   width:  160   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_216.jpg: Predicted in 2.242000 milli-seconds.
+end: 100%	(left_x:  111   top_y:  153   width:  175   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_204.jpg: Predicted in 2.247000 milli-seconds.
+end: 100%	(left_x:  118   top_y:  129   width:  166   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_225.jpg: Predicted in 2.337000 milli-seconds.
+end: 100%	(left_x:   48   top_y:  216   width:  315   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_228.jpg: Predicted in 2.193000 milli-seconds.
+end: 100%	(left_x:   93   top_y:  214   width:  215   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_227.jpg: Predicted in 2.185000 milli-seconds.
+end: 100%	(left_x:   69   top_y:  212   width:  269   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_226.jpg: Predicted in 2.495000 milli-seconds.
+end: 100%	(left_x:   52   top_y:  212   width:  306   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_229.jpg: Predicted in 2.155000 milli-seconds.
+end: 100%	(left_x:  116   top_y:  219   width:  165   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_236.jpg: Predicted in 2.302000 milli-seconds.
+end: 100%	(left_x:  119   top_y:  220   width:  154   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_234.jpg: Predicted in 2.149000 milli-seconds.
+end: 100%	(left_x:  120   top_y:  224   width:  150   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_232.jpg: Predicted in 2.235000 milli-seconds.
+end: 100%	(left_x:  119   top_y:  228   width:  153   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_230.jpg: Predicted in 2.302000 milli-seconds.
+end: 100%	(left_x:  123   top_y:  224   width:  148   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_240.jpg: Predicted in 2.381000 milli-seconds.
+end: 100%	(left_x:  106   top_y:  186   width:  177   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_255.jpg: Predicted in 2.159000 milli-seconds.
+end: 100%	(left_x:  108   top_y:  183   width:  174   height:  151)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_238.jpg: Predicted in 2.303000 milli-seconds.
+end: 100%	(left_x:  115   top_y:  214   width:  159   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_280.jpg: Predicted in 2.339000 milli-seconds.
+end: 100%	(left_x:   94   top_y:  159   width:  205   height:  207)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_257.jpg: Predicted in 2.346000 milli-seconds.
+end: 100%	(left_x:   98   top_y:  188   width:  175   height:  148)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_256.jpg: Predicted in 2.417000 milli-seconds.
+end: 100%	(left_x:  101   top_y:  186   width:  174   height:  146)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_281.jpg: Predicted in 2.216000 milli-seconds.
+end: 100%	(left_x:   81   top_y:  157   width:  218   height:  210)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_18.jpg: Predicted in 2.383000 milli-seconds.
+face: 100%	(left_x:   81   top_y:   60   width:  245   height:  176)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_11.jpg: Predicted in 2.392000 milli-seconds.
+face: 100%	(left_x:   51   top_y:   78   width:  295   height:  210)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_19.jpg: Predicted in 2.367000 milli-seconds.
+face: 100%	(left_x:   81   top_y:   64   width:  248   height:  174)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_8.jpg: Predicted in 2.325000 milli-seconds.
+face: 100%	(left_x:  108   top_y:  120   width:  217   height:  201)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_46.jpg: Predicted in 2.302000 milli-seconds.
+face: 100%	(left_x:   75   top_y:   56   width:  251   height:  197)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_35.jpg: Predicted in 2.300000 milli-seconds.
+face: 100%	(left_x:  109   top_y:   56   width:  226   height:  212)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_26.jpg: Predicted in 2.160000 milli-seconds.
+face: 100%	(left_x:   79   top_y:   65   width:  281   height:  179)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_54.jpg: Predicted in 2.192000 milli-seconds.
+face: 100%	(left_x:  101   top_y:   95   width:  193   height:  155)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_51.jpg: Predicted in 2.580000 milli-seconds.
+face: 100%	(left_x:   96   top_y:   80   width:  237   height:  197)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_55.jpg: Predicted in 3.073000 milli-seconds.
+face: 100%	(left_x:   95   top_y:   95   width:  207   height:  164)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_47.jpg: Predicted in 2.583000 milli-seconds.
+face: 98%	(left_x:   76   top_y:   55   width:  247   height:  202)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_59.jpg: Predicted in 2.402000 milli-seconds.
+face: 100%	(left_x:  100   top_y:   98   width:  199   height:  153)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_58.jpg: Predicted in 2.408000 milli-seconds.
+face: 100%	(left_x:  100   top_y:   98   width:  201   height:  153)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_57.jpg: Predicted in 2.311000 milli-seconds.
+face: 100%	(left_x:   99   top_y:   97   width:  201   height:  156)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_60.jpg: Predicted in 2.234000 milli-seconds.
+face: 100%	(left_x:  100   top_y:   98   width:  200   height:  152)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_69.jpg: Predicted in 2.401000 milli-seconds.
+face: 100%	(left_x:   65   top_y:   90   width:  246   height:  223)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_61.jpg: Predicted in 2.462000 milli-seconds.
+face: 100%	(left_x:  101   top_y:   98   width:  199   height:  152)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_73.jpg: Predicted in 2.321000 milli-seconds.
+face: 100%	(left_x:   82   top_y:  110   width:  262   height:  216)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_87.jpg: Predicted in 2.286000 milli-seconds.
+face: 100%	(left_x:   50   top_y:  113   width:  310   height:  217)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_90.jpg: Predicted in 2.248000 milli-seconds.
+face: 100%	(left_x:   45   top_y:   96   width:  279   height:  204)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_91.jpg: Predicted in 2.180000 milli-seconds.
+face: 100%	(left_x:   44   top_y:  100   width:  286   height:  193)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_83.jpg: Predicted in 2.300000 milli-seconds.
+face: 100%	(left_x:   81   top_y:  128   width:  245   height:  214)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_93.jpg: Predicted in 2.680000 milli-seconds.
+face: 100%	(left_x:   50   top_y:  107   width:  275   height:  176)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_95.jpg: Predicted in 2.579000 milli-seconds.
+face: 99%	(left_x:   56   top_y:  105   width:  262   height:  179)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_96.jpg: Predicted in 2.350000 milli-seconds.
+face: 100%	(left_x:   55   top_y:   90   width:  267   height:  193)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_104.jpg: Predicted in 2.310000 milli-seconds.
+face: 100%	(left_x:   87   top_y:   59   width:  204   height:  163)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_121.jpg: Predicted in 2.241000 milli-seconds.
+face: 100%	(left_x:   78   top_y:   60   width:  223   height:  183)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_120.jpg: Predicted in 2.220000 milli-seconds.
+face: 100%	(left_x:   92   top_y:   61   width:  205   height:  174)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_109.jpg: Predicted in 2.333000 milli-seconds.
+face: 100%	(left_x:  103   top_y:   66   width:  213   height:  161)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_110.jpg: Predicted in 2.364000 milli-seconds.
+face: 100%	(left_x:   99   top_y:   65   width:  220   height:  165)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_123.jpg: Predicted in 2.359000 milli-seconds.
+face: 100%	(left_x:   92   top_y:   63   width:  205   height:  177)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_130.jpg: Predicted in 2.416000 milli-seconds.
+face: 100%	(left_x:  106   top_y:   70   width:  208   height:  163)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_127.jpg: Predicted in 2.362000 milli-seconds.
+face: 100%	(left_x:   94   top_y:   81   width:  214   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_142.jpg: Predicted in 2.199000 milli-seconds.
+face: 100%	(left_x:   86   top_y:   70   width:  221   height:  160)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_143.jpg: Predicted in 2.362000 milli-seconds.
+face: 100%	(left_x:   87   top_y:   70   width:  219   height:  159)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_133.jpg: Predicted in 2.341000 milli-seconds.
+face: 100%	(left_x:  107   top_y:   69   width:  206   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_136.jpg: Predicted in 2.316000 milli-seconds.
+face: 100%	(left_x:   94   top_y:   89   width:  216   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_144.jpg: Predicted in 2.321000 milli-seconds.
+face: 100%	(left_x:   89   top_y:   70   width:  214   height:  158)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_147.jpg: Predicted in 2.251000 milli-seconds.
+face: 100%	(left_x:   89   top_y:   84   width:  224   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_146.jpg: Predicted in 2.239000 milli-seconds.
+face: 100%	(left_x:   87   top_y:   82   width:  225   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_149.jpg: Predicted in 2.186000 milli-seconds.
+face: 100%	(left_x:   95   top_y:   91   width:  220   height:  108)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_151.jpg: Predicted in 2.362000 milli-seconds.
+face: 100%	(left_x:  103   top_y:   86   width:  209   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_156.jpg: Predicted in 2.321000 milli-seconds.
+face: 100%	(left_x:  103   top_y:   74   width:  219   height:  157)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_153.jpg: Predicted in 2.348000 milli-seconds.
+face: 100%	(left_x:  105   top_y:   77   width:  214   height:  148)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_154.jpg: Predicted in 2.334000 milli-seconds.
+face: 100%	(left_x:  105   top_y:   74   width:  216   height:  155)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_155.jpg: Predicted in 2.368000 milli-seconds.
+face: 100%	(left_x:  101   top_y:   72   width:  223   height:  161)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_158.jpg: Predicted in 2.265000 milli-seconds.
+face: 100%	(left_x:  106   top_y:   81   width:  207   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_160.jpg: Predicted in 2.320000 milli-seconds.
+face: 100%	(left_x:   93   top_y:   91   width:  218   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_164.jpg: Predicted in 2.482000 milli-seconds.
+face: 100%	(left_x:   84   top_y:   74   width:  224   height:  162)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_161.jpg: Predicted in 2.168000 milli-seconds.
+face: 100%	(left_x:   86   top_y:   86   width:  223   height:  133)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_167.jpg: Predicted in 2.223000 milli-seconds.
+face: 100%	(left_x:   86   top_y:   75   width:  220   height:  156)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_166.jpg: Predicted in 2.208000 milli-seconds.
+face: 100%	(left_x:   85   top_y:   74   width:  224   height:  160)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_168.jpg: Predicted in 2.328000 milli-seconds.
+face: 100%	(left_x:   88   top_y:   75   width:  218   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_170.jpg: Predicted in 2.335000 milli-seconds.
+face: 100%	(left_x:   89   top_y:   82   width:  221   height:  137)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_169.jpg: Predicted in 2.398000 milli-seconds.
+face: 100%	(left_x:   90   top_y:   77   width:  217   height:  146)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_173.jpg: Predicted in 2.296000 milli-seconds.
+face: 100%	(left_x:  106   top_y:   88   width:  207   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_171.jpg: Predicted in 2.172000 milli-seconds.
+face: 100%	(left_x:   94   top_y:   91   width:  220   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_174.jpg: Predicted in 2.518000 milli-seconds.
+face: 100%	(left_x:  105   top_y:   84   width:  210   height:  140)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_175.jpg: Predicted in 2.268000 milli-seconds.
+face: 100%	(left_x:  100   top_y:   77   width:  222   height:  158)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_176.jpg: Predicted in 2.353000 milli-seconds.
+face: 100%	(left_x:   93   top_y:   67   width:  235   height:  181)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_177.jpg: Predicted in 2.628000 milli-seconds.
+face: 100%	(left_x:   93   top_y:   65   width:  236   height:  184)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_181.jpg: Predicted in 2.447000 milli-seconds.
+face: 100%	(left_x:   94   top_y:   91   width:  221   height:  106)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_178.jpg: Predicted in 2.372000 milli-seconds.
+face: 100%	(left_x:   99   top_y:   71   width:  222   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_179.jpg: Predicted in 2.294000 milli-seconds.
+face: 100%	(left_x:  104   top_y:   80   width:  212   height:  141)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_186.jpg: Predicted in 2.347000 milli-seconds.
+face: 100%	(left_x:   92   top_y:   76   width:  212   height:  148)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_185.jpg: Predicted in 2.175000 milli-seconds.
+face: 100%	(left_x:   93   top_y:   72   width:  209   height:  155)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_183.jpg: Predicted in 2.178000 milli-seconds.
+face: 100%	(left_x:   96   top_y:   75   width:  204   height:  147)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_184.jpg: Predicted in 2.174000 milli-seconds.
+face: 100%	(left_x:   94   top_y:   71   width:  207   height:  159)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_187.jpg: Predicted in 2.360000 milli-seconds.
+face: 100%	(left_x:   94   top_y:   83   width:  218   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_188.jpg: Predicted in 2.301000 milli-seconds.
+face: 100%	(left_x:   96   top_y:   94   width:  220   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_192.jpg: Predicted in 2.260000 milli-seconds.
+face: 100%	(left_x:   93   top_y:   68   width:  240   height:  178)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_190.jpg: Predicted in 2.890000 milli-seconds.
+face: 100%	(left_x:  104   top_y:   83   width:  215   height:  134)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_191.jpg: Predicted in 2.395000 milli-seconds.
+face: 100%	(left_x:  100   top_y:   74   width:  223   height:  158)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_195.jpg: Predicted in 2.367000 milli-seconds.
+face: 100%	(left_x:   95   top_y:   70   width:  237   height:  172)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_194.jpg: Predicted in 2.541000 milli-seconds.
+face: 100%	(left_x:   95   top_y:   70   width:  237   height:  172)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_193.jpg: Predicted in 2.457000 milli-seconds.
+face: 100%	(left_x:   95   top_y:   70   width:  236   height:  173)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_200.jpg: Predicted in 2.305000 milli-seconds.
+face: 100%	(left_x:   98   top_y:   92   width:  223   height:   97)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_198.jpg: Predicted in 2.418000 milli-seconds.
+face: 100%	(left_x:  105   top_y:   74   width:  215   height:  151)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_203.jpg: Predicted in 2.571000 milli-seconds.
+face: 100%	(left_x:   88   top_y:   65   width:  218   height:  165)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_196.jpg: Predicted in 3.410000 milli-seconds.
+face: 100%	(left_x:   94   top_y:   69   width:  238   height:  173)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_197.jpg: Predicted in 2.355000 milli-seconds.
+face: 100%	(left_x:   99   top_y:   73   width:  227   height:  163)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_204.jpg: Predicted in 2.264000 milli-seconds.
+face: 100%	(left_x:   87   top_y:   66   width:  222   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_206.jpg: Predicted in 2.289000 milli-seconds.
+face: 100%	(left_x:   87   top_y:   72   width:  221   height:  155)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_205.jpg: Predicted in 2.365000 milli-seconds.
+face: 100%	(left_x:   86   top_y:   71   width:  222   height:  157)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_209.jpg: Predicted in 2.193000 milli-seconds.
+face: 100%	(left_x:   87   top_y:   80   width:  228   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_208.jpg: Predicted in 2.440000 milli-seconds.
+face: 100%	(left_x:   88   top_y:   76   width:  222   height:  141)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_207.jpg: Predicted in 2.507000 milli-seconds.
+face: 100%	(left_x:   87   top_y:   73   width:  220   height:  151)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_210.jpg: Predicted in 2.380000 milli-seconds.
+face: 100%	(left_x:   92   top_y:   89   width:  223   height:  108)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_214.jpg: Predicted in 2.204000 milli-seconds.
+face: 100%	(left_x:  101   top_y:   72   width:  222   height:  156)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_212.jpg: Predicted in 2.289000 milli-seconds.
+face: 100%	(left_x:  104   top_y:   80   width:  213   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_215.jpg: Predicted in 2.197000 milli-seconds.
+face: 100%	(left_x:   99   top_y:   72   width:  224   height:  157)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_216.jpg: Predicted in 2.240000 milli-seconds.
+face: 100%	(left_x:  104   top_y:   73   width:  212   height:  149)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_217.jpg: Predicted in 2.241000 milli-seconds.
+face: 100%	(left_x:  102   top_y:   80   width:  214   height:  135)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_223.jpg: Predicted in 2.157000 milli-seconds.
+face: 100%	(left_x:   86   top_y:   76   width:  223   height:  147)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_219.jpg: Predicted in 2.245000 milli-seconds.
+face: 100%	(left_x:   99   top_y:   94   width:  215   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_222.jpg: Predicted in 2.313000 milli-seconds.
+face: 100%	(left_x:   85   top_y:   78   width:  225   height:  141)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_225.jpg: Predicted in 2.273000 milli-seconds.
+face: 100%	(left_x:   84   top_y:   77   width:  225   height:  145)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_227.jpg: Predicted in 2.317000 milli-seconds.
+face: 100%	(left_x:   73   top_y:   87   width:  247   height:  136)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_226.jpg: Predicted in 2.324000 milli-seconds.
+face: 100%	(left_x:   81   top_y:   78   width:  232   height:  145)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/face_228.jpg: Predicted in 2.285000 milli-seconds.
+face: 99%	(left_x:   76   top_y:  102   width:  245   height:  161)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_7.jpg: Predicted in 2.255000 milli-seconds.
+meet: 100%	(left_x:  112   top_y:  241   width:  186   height:  105)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_8.jpg: Predicted in 2.256000 milli-seconds.
+meet: 100%	(left_x:  107   top_y:  233   width:  192   height:  104)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_15.jpg: Predicted in 2.205000 milli-seconds.
+meet: 100%	(left_x:   68   top_y:  178   width:  277   height:  109)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_13.jpg: Predicted in 2.336000 milli-seconds.
+meet: 100%	(left_x:   49   top_y:  168   width:  311   height:  110)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_10.jpg: Predicted in 2.300000 milli-seconds.
+meet: 100%	(left_x:   95   top_y:  195   width:  212   height:  106)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_21.jpg: Predicted in 2.167000 milli-seconds.
+meet: 100%	(left_x:   92   top_y:  196   width:  234   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_20.jpg: Predicted in 2.367000 milli-seconds.
+meet: 100%	(left_x:  105   top_y:  205   width:  205   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_18.jpg: Predicted in 2.264000 milli-seconds.
+meet: 100%	(left_x:  105   top_y:  212   width:  204   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_25.jpg: Predicted in 2.449000 milli-seconds.
+meet: 100%	(left_x:   67   top_y:  182   width:  287   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_22.jpg: Predicted in 2.168000 milli-seconds.
+meet: 100%	(left_x:   81   top_y:  188   width:  253   height:  110)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_23.jpg: Predicted in 2.327000 milli-seconds.
+meet: 100%	(left_x:   65   top_y:  183   width:  288   height:  107)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_30.jpg: Predicted in 2.335000 milli-seconds.
+meet: 100%	(left_x:  109   top_y:  228   width:  203   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_27.jpg: Predicted in 2.274000 milli-seconds.
+meet: 100%	(left_x:   91   top_y:  198   width:  242   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_28.jpg: Predicted in 2.222000 milli-seconds.
+meet: 100%	(left_x:  105   top_y:  213   width:  212   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_31.jpg: Predicted in 2.168000 milli-seconds.
+meet: 100%	(left_x:  108   top_y:  227   width:  204   height:  115)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_34.jpg: Predicted in 2.117000 milli-seconds.
+meet: 100%	(left_x:   85   top_y:  195   width:  253   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_37.jpg: Predicted in 2.194000 milli-seconds.
+meet: 100%	(left_x:   62   top_y:  183   width:  295   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_32.jpg: Predicted in 2.259000 milli-seconds.
+meet: 100%	(left_x:  109   top_y:  220   width:  201   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_45.jpg: Predicted in 2.204000 milli-seconds.
+meet: 100%	(left_x:   81   top_y:  185   width:  255   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_42.jpg: Predicted in 2.259000 milli-seconds.
+meet: 100%	(left_x:  121   top_y:  234   width:  180   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_43.jpg: Predicted in 2.054000 milli-seconds.
+meet: 100%	(left_x:  104   top_y:  221   width:  206   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_50.jpg: Predicted in 2.440000 milli-seconds.
+meet: 100%	(left_x:   89   top_y:  197   width:  245   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_51.jpg: Predicted in 2.462000 milli-seconds.
+meet: 100%	(left_x:   96   top_y:  218   width:  228   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_53.jpg: Predicted in 2.358000 milli-seconds.
+meet: 100%	(left_x:  113   top_y:  232   width:  193   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_60.jpg: Predicted in 2.327000 milli-seconds.
+meet: 100%	(left_x:   85   top_y:  185   width:  268   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_58.jpg: Predicted in 2.467000 milli-seconds.
+meet: 100%	(left_x:   44   top_y:  148   width:  346   height:  141)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_55.jpg: Predicted in 2.348000 milli-seconds.
+meet: 100%	(left_x:   90   top_y:  189   width:  246   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_61.jpg: Predicted in 2.434000 milli-seconds.
+meet: 100%	(left_x:  101   top_y:  199   width:  232   height:  142)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_63.jpg: Predicted in 2.303000 milli-seconds.
+meet: 100%	(left_x:  105   top_y:  211   width:  211   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_64.jpg: Predicted in 2.321000 milli-seconds.
+meet: 100%	(left_x:   94   top_y:  185   width:  233   height:  136)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_80.jpg: Predicted in 2.275000 milli-seconds.
+meet: 100%	(left_x:  102   top_y:  123   width:  202   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_68.jpg: Predicted in 2.276000 milli-seconds.
+meet: 100%	(left_x:   58   top_y:  115   width:  320   height:  146)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_67.jpg: Predicted in 2.407000 milli-seconds.
+meet: 100%	(left_x:   56   top_y:  114   width:  320   height:  147)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_85.jpg: Predicted in 2.205000 milli-seconds.
+meet: 100%	(left_x:   69   top_y:   95   width:  287   height:  106)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_87.jpg: Predicted in 2.183000 milli-seconds.
+meet: 100%	(left_x:   76   top_y:  104   width:  262   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_82.jpg: Predicted in 2.281000 milli-seconds.
+meet: 100%	(left_x:  105   top_y:  122   width:  200   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_83.jpg: Predicted in 2.223000 milli-seconds.
+meet: 100%	(left_x:   97   top_y:  110   width:  210   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_92.jpg: Predicted in 2.262000 milli-seconds.
+meet: 100%	(left_x:  116   top_y:  271   width:  176   height:  115)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_93.jpg: Predicted in 2.154000 milli-seconds.
+meet: 100%	(left_x:  120   top_y:  261   width:  175   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_94.jpg: Predicted in 2.090000 milli-seconds.
+meet: 100%	(left_x:  114   top_y:  247   width:  188   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_97.jpg: Predicted in 2.259000 milli-seconds.
+meet: 100%	(left_x:   89   top_y:  210   width:  228   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_99.jpg: Predicted in 2.393000 milli-seconds.
+meet: 100%	(left_x:  110   top_y:  228   width:  195   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_95.jpg: Predicted in 2.273000 milli-seconds.
+meet: 100%	(left_x:  109   top_y:  225   width:  198   height:  134)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_98.jpg: Predicted in 2.239000 milli-seconds.
+meet: 100%	(left_x:   94   top_y:  217   width:  223   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_105.jpg: Predicted in 2.230000 milli-seconds.
+meet: 100%	(left_x:   84   top_y:  211   width:  246   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_107.jpg: Predicted in 2.311000 milli-seconds.
+meet: 100%	(left_x:   89   top_y:  217   width:  229   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_100.jpg: Predicted in 2.388000 milli-seconds.
+meet: 100%	(left_x:  114   top_y:  243   width:  186   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_110.jpg: Predicted in 2.309000 milli-seconds.
+meet: 100%	(left_x:  134   top_y:  226   width:  185   height:  138)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_108.jpg: Predicted in 2.221000 milli-seconds.
+meet: 100%	(left_x:  106   top_y:  231   width:  195   height:  133)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_115.jpg: Predicted in 2.308000 milli-seconds.
+meet: 100%	(left_x:  123   top_y:  153   width:  253   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_109.jpg: Predicted in 2.349000 milli-seconds.
+meet: 100%	(left_x:  117   top_y:  232   width:  191   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_118.jpg: Predicted in 2.248000 milli-seconds.
+meet: 100%	(left_x:  153   top_y:  196   width:  188   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_119.jpg: Predicted in 2.324000 milli-seconds.
+meet: 100%	(left_x:  147   top_y:  186   width:  208   height:  134)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_117.jpg: Predicted in 2.271000 milli-seconds.
+meet: 100%	(left_x:  140   top_y:  178   width:  206   height:  137)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_120.jpg: Predicted in 2.277000 milli-seconds.
+meet: 100%	(left_x:  147   top_y:  171   width:  214   height:  134)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_121.jpg: Predicted in 2.505000 milli-seconds.
+meet: 99%	(left_x:  151   top_y:  158   width:  221   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_126.jpg: Predicted in 2.233000 milli-seconds.
+meet: 99%	(left_x:   93   top_y:  171   width:  250   height:  143)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_125.jpg: Predicted in 2.161000 milli-seconds.
+meet: 100%	(left_x:  113   top_y:  160   width:  235   height:  147)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_129.jpg: Predicted in 2.203000 milli-seconds.
+meet: 100%	(left_x:   73   top_y:  153   width:  264   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_128.jpg: Predicted in 2.327000 milli-seconds.
+meet: 100%	(left_x:   76   top_y:  154   width:  263   height:  134)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_133.jpg: Predicted in 2.565000 milli-seconds.
+meet: 100%	(left_x:   58   top_y:  141   width:  301   height:  109)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_132.jpg: Predicted in 2.401000 milli-seconds.
+meet: 100%	(left_x:   39   top_y:  136   width:  338   height:  106)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_134.jpg: Predicted in 2.403000 milli-seconds.
+meet: 100%	(left_x:   71   top_y:  158   width:  266   height:  103)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_136.jpg: Predicted in 2.534000 milli-seconds.
+meet: 100%	(left_x:  100   top_y:  185   width:  205   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_135.jpg: Predicted in 2.465000 milli-seconds.
+meet: 100%	(left_x:   91   top_y:  169   width:  222   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_140.jpg: Predicted in 2.278000 milli-seconds.
+meet: 100%	(left_x:   65   top_y:  162   width:  282   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_139.jpg: Predicted in 2.330000 milli-seconds.
+meet: 100%	(left_x:   69   top_y:  166   width:  264   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_145.jpg: Predicted in 2.238000 milli-seconds.
+meet: 100%	(left_x:  108   top_y:  229   width:  185   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_142.jpg: Predicted in 2.542000 milli-seconds.
+meet: 100%	(left_x:   84   top_y:  176   width:  231   height:  109)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_144.jpg: Predicted in 2.493000 milli-seconds.
+meet: 100%	(left_x:  101   top_y:  216   width:  199   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_147.jpg: Predicted in 2.177000 milli-seconds.
+meet: 100%	(left_x:  114   top_y:  227   width:  177   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_151.jpg: Predicted in 2.262000 milli-seconds.
+meet: 100%	(left_x:   78   top_y:  193   width:  252   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_150.jpg: Predicted in 2.332000 milli-seconds.
+meet: 100%	(left_x:   95   top_y:  196   width:  217   height:  133)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_149.jpg: Predicted in 2.369000 milli-seconds.
+meet: 100%	(left_x:  106   top_y:  212   width:  196   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_155.jpg: Predicted in 2.474000 milli-seconds.
+meet: 100%	(left_x:  117   top_y:  229   width:  178   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_156.jpg: Predicted in 2.320000 milli-seconds.
+meet: 100%	(left_x:  106   top_y:  221   width:  199   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_157.jpg: Predicted in 2.498000 milli-seconds.
+meet: 100%	(left_x:  102   top_y:  208   width:  204   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_158.jpg: Predicted in 2.575000 milli-seconds.
+meet: 100%	(left_x:   90   top_y:  196   width:  232   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_161.jpg: Predicted in 2.435000 milli-seconds.
+meet: 100%	(left_x:   97   top_y:  199   width:  215   height:  137)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_163.jpg: Predicted in 2.257000 milli-seconds.
+meet: 100%	(left_x:  104   top_y:  218   width:  199   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_166.jpg: Predicted in 2.823000 milli-seconds.
+meet: 100%	(left_x:  105   top_y:  167   width:  194   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_165.jpg: Predicted in 3.515000 milli-seconds.
+meet: 100%	(left_x:  102   top_y:  188   width:  199   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_167.jpg: Predicted in 3.352000 milli-seconds.
+meet: 100%	(left_x:   93   top_y:  151   width:  223   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_164.jpg: Predicted in 2.245000 milli-seconds.
+meet: 100%	(left_x:  107   top_y:  206   width:  188   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_173.jpg: Predicted in 2.375000 milli-seconds.
+meet: 100%	(left_x:  103   top_y:  173   width:  195   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_171.jpg: Predicted in 2.556000 milli-seconds.
+meet: 100%	(left_x:  105   top_y:  173   width:  191   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_172.jpg: Predicted in 2.366000 milli-seconds.
+meet: 100%	(left_x:  107   top_y:  183   width:  190   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_180.jpg: Predicted in 2.202000 milli-seconds.
+meet: 100%	(left_x:  106   top_y:  200   width:  195   height:  136)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_174.jpg: Predicted in 2.247000 milli-seconds.
+meet: 100%	(left_x:   84   top_y:  159   width:  235   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_177.jpg: Predicted in 2.263000 milli-seconds.
+meet: 100%	(left_x:   70   top_y:  145   width:  277   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_183.jpg: Predicted in 2.269000 milli-seconds.
+meet: 100%	(left_x:  108   top_y:  253   width:  194   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_182.jpg: Predicted in 2.305000 milli-seconds.
+meet: 100%	(left_x:  110   top_y:  247   width:  186   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_181.jpg: Predicted in 2.358000 milli-seconds.
+meet: 100%	(left_x:  111   top_y:  225   width:  185   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_188.jpg: Predicted in 2.398000 milli-seconds.
+meet: 100%	(left_x:   90   top_y:  215   width:  236   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_187.jpg: Predicted in 2.351000 milli-seconds.
+meet: 100%	(left_x:   86   top_y:  210   width:  236   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_189.jpg: Predicted in 2.145000 milli-seconds.
+meet: 100%	(left_x:   99   top_y:  222   width:  222   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_184.jpg: Predicted in 2.156000 milli-seconds.
+meet: 100%	(left_x:  112   top_y:  250   width:  192   height:  118)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_195.jpg: Predicted in 2.413000 milli-seconds.
+meet: 100%	(left_x:   81   top_y:  196   width:  251   height:  138)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_192.jpg: Predicted in 2.292000 milli-seconds.
+meet: 100%	(left_x:  110   top_y:  250   width:  191   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/meet_193.jpg: Predicted in 2.155000 milli-seconds.
+meet: 100%	(left_x:  108   top_y:  232   width:  190   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_19.jpg: Predicted in 2.130000 milli-seconds.
+stop_1: 100%	(left_x:  138   top_y:  271   width:  178   height:  133)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_16.jpg: Predicted in 2.105000 milli-seconds.
+stop_1: 100%	(left_x:  150   top_y:  255   width:  154   height:  149)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_18.jpg: Predicted in 2.224000 milli-seconds.
+stop_1: 100%	(left_x:  145   top_y:  268   width:  170   height:  135)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_23.jpg: Predicted in 2.307000 milli-seconds.
+stop_1: 100%	(left_x:  103   top_y:  285   width:  217   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_21.jpg: Predicted in 2.231000 milli-seconds.
+stop_1: 100%	(left_x:  114   top_y:  278   width:  210   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_22.jpg: Predicted in 2.266000 milli-seconds.
+stop_1: 100%	(left_x:  107   top_y:  282   width:  215   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_27.jpg: Predicted in 2.188000 milli-seconds.
+stop_1: 100%	(left_x:   84   top_y:  295   width:  229   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_26.jpg: Predicted in 2.287000 milli-seconds.
+stop_1: 100%	(left_x:   76   top_y:  294   width:  245   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_24.jpg: Predicted in 2.278000 milli-seconds.
+stop_1: 100%	(left_x:   94   top_y:  286   width:  229   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_36.jpg: Predicted in 2.218000 milli-seconds.
+stop_2: 99%	(left_x:  129   top_y:  172   width:  105   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_35.jpg: Predicted in 2.266000 milli-seconds.
+stop_2: 99%	(left_x:  130   top_y:  171   width:  106   height:  102)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_39.jpg: Predicted in 2.275000 milli-seconds.
+stop_2: 99%	(left_x:  129   top_y:  174   width:  104   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_49.jpg: Predicted in 2.415000 milli-seconds.
+stop_1: 100%	(left_x:  147   top_y:  267   width:  176   height:  139)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_55.jpg: Predicted in 2.257000 milli-seconds.
+stop_1: 100%	(left_x:  125   top_y:  281   width:  202   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_52.jpg: Predicted in 2.159000 milli-seconds.
+stop_1: 100%	(left_x:  142   top_y:  275   width:  184   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_53.jpg: Predicted in 2.096000 milli-seconds.
+stop_1: 100%	(left_x:  135   top_y:  276   width:  191   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_51.jpg: Predicted in 2.316000 milli-seconds.
+stop_1: 100%	(left_x:  146   top_y:  275   width:  181   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_58.jpg: Predicted in 2.194000 milli-seconds.
+stop_1: 100%	(left_x:   97   top_y:  288   width:  231   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_57.jpg: Predicted in 2.210000 milli-seconds.
+stop_1: 100%	(left_x:  103   top_y:  286   width:  228   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_56.jpg: Predicted in 2.271000 milli-seconds.
+stop_1: 100%	(left_x:  108   top_y:  283   width:  225   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_88.jpg: Predicted in 2.192000 milli-seconds.
+stop_1: 100%	(left_x:  154   top_y:  277   width:  149   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_70.jpg: Predicted in 2.289000 milli-seconds.
+stop_2: 99%	(left_x:  127   top_y:  169   width:  100   height:  107)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_69.jpg: Predicted in 2.284000 milli-seconds.
+stop_2: 99%	(left_x:  127   top_y:  172   width:  101   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_59.jpg: Predicted in 2.353000 milli-seconds.
+stop_1: 100%	(left_x:   86   top_y:  293   width:  243   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_89.jpg: Predicted in 2.181000 milli-seconds.
+stop_1: 100%	(left_x:  155   top_y:  278   width:  142   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_90.jpg: Predicted in 2.149000 milli-seconds.
+stop_1: 100%	(left_x:  136   top_y:  285   width:  160   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_92.jpg: Predicted in 2.259000 milli-seconds.
+stop_1: 100%	(left_x:  118   top_y:  291   width:  168   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_91.jpg: Predicted in 2.396000 milli-seconds.
+stop_1: 100%	(left_x:  125   top_y:  289   width:  168   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_96.jpg: Predicted in 2.244000 milli-seconds.
+stop_1: 100%	(left_x:   90   top_y:  298   width:  198   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_97.jpg: Predicted in 2.299000 milli-seconds.
+stop_1: 100%	(left_x:   82   top_y:  302   width:  211   height:  105)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_94.jpg: Predicted in 2.282000 milli-seconds.
+stop_1: 99%	(left_x:  111   top_y:  299   width:  167   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_99.jpg: Predicted in 2.346000 milli-seconds.
+stop_1: 100%	(left_x:   82   top_y:  303   width:  213   height:  105)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_98.jpg: Predicted in 2.208000 milli-seconds.
+stop_1: 100%	(left_x:   82   top_y:  303   width:  212   height:  105)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_100.jpg: Predicted in 2.266000 milli-seconds.
+stop_1: 100%	(left_x:   81   top_y:  303   width:  216   height:  104)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_111.jpg: Predicted in 2.156000 milli-seconds.
+stop_2: 98%	(left_x:  133   top_y:  180   width:  100   height:   94)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_101.jpg: Predicted in 2.196000 milli-seconds.
+stop_1: 100%	(left_x:   82   top_y:  303   width:  214   height:  105)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_110.jpg: Predicted in 2.354000 milli-seconds.
+stop_2: 98%	(left_x:  132   top_y:  180   width:  101   height:   93)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_112.jpg: Predicted in 2.351000 milli-seconds.
+stop_2: 97%	(left_x:  133   top_y:  180   width:  101   height:   93)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_115.jpg: Predicted in 2.310000 milli-seconds.
+stop_2: 95%	(left_x:  131   top_y:  180   width:  101   height:   92)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_117.jpg: Predicted in 2.221000 milli-seconds.
+stop_2: 95%	(left_x:  127   top_y:  170   width:  105   height:  106)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_114.jpg: Predicted in 2.239000 milli-seconds.
+stop_2: 96%	(left_x:  132   top_y:  180   width:  101   height:   92)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_130.jpg: Predicted in 2.327000 milli-seconds.
+stop_1: 100%	(left_x:  140   top_y:  241   width:  212   height:  165)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_131.jpg: Predicted in 2.273000 milli-seconds.
+stop_1: 100%	(left_x:  137   top_y:  243   width:  209   height:  164)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_134.jpg: Predicted in 2.202000 milli-seconds.
+stop_1: 100%	(left_x:  108   top_y:  254   width:  239   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_135.jpg: Predicted in 2.232000 milli-seconds.
+stop_1: 100%	(left_x:   86   top_y:  260   width:  260   height:  149)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_136.jpg: Predicted in 2.422000 milli-seconds.
+stop_1: 100%	(left_x:   73   top_y:  268   width:  273   height:  139)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_139.jpg: Predicted in 2.203000 milli-seconds.
+stop_1: 100%	(left_x:   71   top_y:  269   width:  268   height:  138)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_138.jpg: Predicted in 2.186000 milli-seconds.
+stop_1: 100%	(left_x:   74   top_y:  268   width:  267   height:  139)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_144.jpg: Predicted in 2.238000 milli-seconds.
+stop_2: 100%	(left_x:  102   top_y:  116   width:  142   height:  138)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_149.jpg: Predicted in 2.258000 milli-seconds.
+stop_2: 99%	(left_x:  106   top_y:  117   width:  137   height:  133)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_150.jpg: Predicted in 2.488000 milli-seconds.
+stop_2: 99%	(left_x:  105   top_y:  118   width:  137   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_159.jpg: Predicted in 2.279000 milli-seconds.
+stop_1: 100%	(left_x:  114   top_y:  253   width:  212   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_157.jpg: Predicted in 2.372000 milli-seconds.
+stop_1: 100%	(left_x:  115   top_y:  246   width:  202   height:  161)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_162.jpg: Predicted in 2.422000 milli-seconds.
+stop_1: 100%	(left_x:   87   top_y:  272   width:  249   height:  137)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_161.jpg: Predicted in 2.351000 milli-seconds.
+stop_1: 100%	(left_x:  101   top_y:  265   width:  231   height:  144)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_163.jpg: Predicted in 2.368000 milli-seconds.
+stop_1: 100%	(left_x:   74   top_y:  279   width:  264   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_165.jpg: Predicted in 2.392000 milli-seconds.
+stop_1: 100%	(left_x:   68   top_y:  288   width:  260   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_164.jpg: Predicted in 2.258000 milli-seconds.
+stop_1: 100%	(left_x:   68   top_y:  283   width:  265   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_167.jpg: Predicted in 2.247000 milli-seconds.
+stop_1: 100%	(left_x:   68   top_y:  287   width:  261   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_173.jpg: Predicted in 2.527000 milli-seconds.
+stop_2: 99%	(left_x:  114   top_y:  119   width:  138   height:  136)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_181.jpg: Predicted in 2.318000 milli-seconds.
+stop_2: 99%	(left_x:  118   top_y:  121   width:  132   height:  134)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_180.jpg: Predicted in 2.369000 milli-seconds.
+stop_2: 99%	(left_x:  117   top_y:  120   width:  132   height:  134)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_186.jpg: Predicted in 2.297000 milli-seconds.
+stop_1: 98%	(left_x:  152   top_y:  268   width:  180   height:   96)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_188.jpg: Predicted in 2.301000 milli-seconds.
+stop_1: 97%	(left_x:  149   top_y:  283   width:  166   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_192.jpg: Predicted in 2.241000 milli-seconds.
+stop_1: 100%	(left_x:   95   top_y:  306   width:  207   height:  104)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_202.jpg: Predicted in 2.444000 milli-seconds.
+stop_2: 99%	(left_x:  118   top_y:  121   width:  134   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_187.jpg: Predicted in 2.256000 milli-seconds.
+stop_1: 95%	(left_x:  154   top_y:  278   width:  167   height:  103)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_203.jpg: Predicted in 2.419000 milli-seconds.
+stop_2: 98%	(left_x:  118   top_y:  121   width:  133   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_217.jpg: Predicted in 2.293000 milli-seconds.
+stop_1: 100%	(left_x:  130   top_y:  257   width:  170   height:  149)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_216.jpg: Predicted in 2.121000 milli-seconds.
+stop_1: 100%	(left_x:  139   top_y:  267   width:  172   height:  138)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_218.jpg: Predicted in 2.270000 milli-seconds.
+stop_1: 100%	(left_x:  119   top_y:  266   width:  184   height:  142)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_219.jpg: Predicted in 2.142000 milli-seconds.
+stop_1: 100%	(left_x:  111   top_y:  269   width:  196   height:  140)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_220.jpg: Predicted in 2.107000 milli-seconds.
+stop_1: 100%	(left_x:   95   top_y:  279   width:  217   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_229.jpg: Predicted in 2.363000 milli-seconds.
+stop_2: 98%	(left_x:  123   top_y:  155   width:  108   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_222.jpg: Predicted in 2.133000 milli-seconds.
+stop_1: 100%	(left_x:   79   top_y:  290   width:  234   height:  118)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_231.jpg: Predicted in 2.161000 milli-seconds.
+stop_2: 99%	(left_x:  124   top_y:  155   width:  107   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_230.jpg: Predicted in 2.633000 milli-seconds.
+stop_2: 99%	(left_x:  123   top_y:  155   width:  109   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_232.jpg: Predicted in 2.429000 milli-seconds.
+stop_2: 98%	(left_x:  125   top_y:  154   width:  106   height:   99)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_233.jpg: Predicted in 2.183000 milli-seconds.
+stop_2: 98%	(left_x:  125   top_y:  154   width:  107   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_242.jpg: Predicted in 2.158000 milli-seconds.
+stop_1: 100%	(left_x:  136   top_y:  254   width:  164   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_244.jpg: Predicted in 2.208000 milli-seconds.
+stop_1: 100%	(left_x:  120   top_y:  265   width:  182   height:  144)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_245.jpg: Predicted in 2.283000 milli-seconds.
+stop_1: 100%	(left_x:  110   top_y:  271   width:  198   height:  139)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_243.jpg: Predicted in 2.397000 milli-seconds.
+stop_1: 100%	(left_x:  131   top_y:  256   width:  168   height:  152)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_248.jpg: Predicted in 2.121000 milli-seconds.
+stop_1: 100%	(left_x:   80   top_y:  288   width:  233   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_247.jpg: Predicted in 2.302000 milli-seconds.
+stop_1: 100%	(left_x:   93   top_y:  282   width:  216   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_246.jpg: Predicted in 2.247000 milli-seconds.
+stop_1: 100%	(left_x:   99   top_y:  279   width:  211   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_249.jpg: Predicted in 2.378000 milli-seconds.
+stop_1: 100%	(left_x:   76   top_y:  290   width:  238   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_251.jpg: Predicted in 2.274000 milli-seconds.
+stop_1: 100%	(left_x:   75   top_y:  293   width:  241   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_250.jpg: Predicted in 2.452000 milli-seconds.
+stop_1: 100%	(left_x:   74   top_y:  293   width:  242   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_272.jpg: Predicted in 2.114000 milli-seconds.
+stop_1: 100%	(left_x:  118   top_y:  217   width:  161   height:  155)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_262.jpg: Predicted in 2.300000 milli-seconds.
+stop_2: 97%	(left_x:  129   top_y:  152   width:  106   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_261.jpg: Predicted in 2.322000 milli-seconds.
+stop_2: 97%	(left_x:  130   top_y:  152   width:  106   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_279.jpg: Predicted in 2.441000 milli-seconds.
+stop_1: 100%	(left_x:   89   top_y:  228   width:  212   height:  145)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_273.jpg: Predicted in 2.219000 milli-seconds.
+stop_1: 100%	(left_x:  114   top_y:  215   width:  174   height:  163)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_280.jpg: Predicted in 2.229000 milli-seconds.
+stop_1: 100%	(left_x:   87   top_y:  227   width:  215   height:  145)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_288.jpg: Predicted in 2.177000 milli-seconds.
+stop_2: 97%	(left_x:  117   top_y:  146   width:  107   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_289.jpg: Predicted in 2.340000 milli-seconds.
+stop_2: 98%	(left_x:  118   top_y:  147   width:  106   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_287.jpg: Predicted in 2.335000 milli-seconds.
+stop_2: 97%	(left_x:  116   top_y:  146   width:  107   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_286.jpg: Predicted in 2.200000 milli-seconds.
+stop_2: 95%	(left_x:  112   top_y:  132   width:  112   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_15.jpg: Predicted in 2.294000 milli-seconds.
+testing_1: 99%	(left_x:  163   top_y:  163   width:   64   height:  102)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/stop_290.jpg: Predicted in 2.448000 milli-seconds.
+stop_2: 99%	(left_x:  119   top_y:  148   width:  106   height:   97)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_16.jpg: Predicted in 2.178000 milli-seconds.
+testing_1: 99%	(left_x:  164   top_y:  163   width:   63   height:  103)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_17.jpg: Predicted in 2.209000 milli-seconds.
+testing_1: 99%	(left_x:  163   top_y:  163   width:   64   height:  104)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_33.jpg: Predicted in 2.211000 milli-seconds.
+testing_2: 100%	(left_x:  120   top_y:  197   width:  157   height:  172)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_29.jpg: Predicted in 2.365000 milli-seconds.
+testing_2: 100%	(left_x:  128   top_y:  182   width:  166   height:  200)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_40.jpg: Predicted in 2.207000 milli-seconds.
+testing_2: 100%	(left_x:  112   top_y:  188   width:  173   height:  198)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_36.jpg: Predicted in 2.064000 milli-seconds.
+testing_2: 100%	(left_x:  137   top_y:  200   width:  148   height:  210)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_37.jpg: Predicted in 2.339000 milli-seconds.
+testing_2: 100%	(left_x:  139   top_y:  184   width:  147   height:  218)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_42.jpg: Predicted in 2.221000 milli-seconds.
+testing_2: 100%	(left_x:  118   top_y:  187   width:  165   height:  218)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_41.jpg: Predicted in 2.196000 milli-seconds.
+testing_2: 100%	(left_x:  117   top_y:  181   width:  164   height:  226)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_43.jpg: Predicted in 2.353000 milli-seconds.
+testing_2: 100%	(left_x:  119   top_y:  194   width:  162   height:  203)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_44.jpg: Predicted in 2.268000 milli-seconds.
+testing_2: 100%	(left_x:  119   top_y:  200   width:  163   height:  196)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_45.jpg: Predicted in 2.845000 milli-seconds.
+testing_2: 100%	(left_x:  121   top_y:  202   width:  160   height:  198)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_51.jpg: Predicted in 2.296000 milli-seconds.
+testing_1: 98%	(left_x:  163   top_y:  165   width:   65   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_52.jpg: Predicted in 2.090000 milli-seconds.
+testing_1: 99%	(left_x:  163   top_y:  164   width:   67   height:  110)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_50.jpg: Predicted in 2.114000 milli-seconds.
+testing_1: 96%	(left_x:  164   top_y:  166   width:   65   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_63.jpg: Predicted in 2.212000 milli-seconds.
+testing_2: 100%	(left_x:  130   top_y:  197   width:  149   height:  214)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_67.jpg: Predicted in 2.254000 milli-seconds.
+testing_2: 100%	(left_x:  118   top_y:  191   width:  161   height:  191)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_53.jpg: Predicted in 2.480000 milli-seconds.
+testing_1: 99%	(left_x:  163   top_y:  164   width:   65   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_64.jpg: Predicted in 2.134000 milli-seconds.
+testing_2: 100%	(left_x:  130   top_y:  185   width:  153   height:  217)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_75.jpg: Predicted in 2.241000 milli-seconds.
+testing_2: 100%	(left_x:  124   top_y:  203   width:  153   height:  179)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_71.jpg: Predicted in 2.349000 milli-seconds.
+testing_2: 100%	(left_x:  135   top_y:  191   width:  158   height:  222)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_68.jpg: Predicted in 2.264000 milli-seconds.
+testing_2: 100%	(left_x:  120   top_y:  193   width:  158   height:  198)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_81.jpg: Predicted in 2.248000 milli-seconds.
+testing_1: 92%	(left_x:  166   top_y:  176   width:   57   height:  104)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_76.jpg: Predicted in 2.252000 milli-seconds.
+testing_2: 100%	(left_x:  122   top_y:  194   width:  157   height:  195)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_83.jpg: Predicted in 2.263000 milli-seconds.
+testing_1: 95%	(left_x:  165   top_y:  168   width:   62   height:  108)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_94.jpg: Predicted in 2.201000 milli-seconds.
+testing_2: 100%	(left_x:  117   top_y:  190   width:  172   height:  230)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_98.jpg: Predicted in 2.333000 milli-seconds.
+testing_2: 100%	(left_x:  114   top_y:  190   width:  163   height:  212)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_84.jpg: Predicted in 2.212000 milli-seconds.
+testing_1: 94%	(left_x:  167   top_y:  177   width:   60   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_101.jpg: Predicted in 2.265000 milli-seconds.
+testing_2: 100%	(left_x:  134   top_y:  211   width:  154   height:  211)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_102.jpg: Predicted in 2.220000 milli-seconds.
+testing_2: 100%	(left_x:  135   top_y:  203   width:  160   height:  213)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_103.jpg: Predicted in 2.188000 milli-seconds.
+testing_2: 100%	(left_x:  138   top_y:  202   width:  153   height:  199)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_107.jpg: Predicted in 2.346000 milli-seconds.
+testing_2: 100%	(left_x:  121   top_y:  219   width:  158   height:  186)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_106.jpg: Predicted in 2.163000 milli-seconds.
+testing_2: 100%	(left_x:  117   top_y:  213   width:  163   height:  192)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_115.jpg: Predicted in 2.169000 milli-seconds.
+testing_1: 97%	(left_x:  162   top_y:  163   width:   65   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_108.jpg: Predicted in 2.225000 milli-seconds.
+testing_2: 100%	(left_x:  123   top_y:  219   width:  155   height:  191)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_117.jpg: Predicted in 2.148000 milli-seconds.
+testing_1: 96%	(left_x:  163   top_y:  164   width:   64   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_136.jpg: Predicted in 2.224000 milli-seconds.
+testing_2: 100%	(left_x:  129   top_y:  192   width:  173   height:  225)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_118.jpg: Predicted in 2.199000 milli-seconds.
+testing_1: 97%	(left_x:  163   top_y:  164   width:   64   height:  115)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_132.jpg: Predicted in 2.263000 milli-seconds.
+testing_2: 100%	(left_x:  116   top_y:  193   width:  164   height:  208)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_141.jpg: Predicted in 2.371000 milli-seconds.
+testing_2: 100%	(left_x:  125   top_y:  224   width:  153   height:  197)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_149.jpg: Predicted in 2.406000 milli-seconds.
+testing_1: 94%	(left_x:  158   top_y:  172   width:   62   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_139.jpg: Predicted in 2.303000 milli-seconds.
+testing_2: 100%	(left_x:  124   top_y:  220   width:  153   height:  177)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_150.jpg: Predicted in 2.230000 milli-seconds.
+testing_1: 93%	(left_x:  159   top_y:  172   width:   61   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_162.jpg: Predicted in 2.317000 milli-seconds.
+testing_2: 100%	(left_x:  130   top_y:  201   width:  160   height:  217)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_151.jpg: Predicted in 2.327000 milli-seconds.
+testing_1: 91%	(left_x:  159   top_y:  173   width:   62   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_166.jpg: Predicted in 2.301000 milli-seconds.
+testing_2: 100%	(left_x:  117   top_y:  206   width:  163   height:  186)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_163.jpg: Predicted in 2.214000 milli-seconds.
+testing_2: 100%	(left_x:  132   top_y:  189   width:  163   height:  224)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_170.jpg: Predicted in 2.125000 milli-seconds.
+testing_2: 100%	(left_x:  127   top_y:  187   width:  171   height:  231)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_171.jpg: Predicted in 2.086000 milli-seconds.
+testing_2: 100%	(left_x:  129   top_y:  188   width:  171   height:  233)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_183.jpg: Predicted in 2.214000 milli-seconds.
+testing_1: 100%	(left_x:  147   top_y:  161   width:   60   height:  110)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_182.jpg: Predicted in 2.162000 milli-seconds.
+testing_1: 100%	(left_x:  145   top_y:  160   width:   59   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_175.jpg: Predicted in 2.187000 milli-seconds.
+testing_2: 100%	(left_x:  117   top_y:  215   width:  166   height:  199)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_184.jpg: Predicted in 2.177000 milli-seconds.
+testing_1: 100%	(left_x:  150   top_y:  166   width:   59   height:  107)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_191.jpg: Predicted in 2.271000 milli-seconds.
+testing_2: 100%	(left_x:  125   top_y:  193   width:  181   height:  223)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_195.jpg: Predicted in 2.275000 milli-seconds.
+testing_2: 100%	(left_x:  121   top_y:  194   width:  163   height:  206)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_194.jpg: Predicted in 2.274000 milli-seconds.
+testing_2: 100%	(left_x:  124   top_y:  196   width:  156   height:  197)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_199.jpg: Predicted in 2.232000 milli-seconds.
+testing_2: 100%	(left_x:  132   top_y:  193   width:  187   height:  233)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_200.jpg: Predicted in 2.196000 milli-seconds.
+testing_2: 100%	(left_x:  137   top_y:  198   width:  176   height:  221)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_201.jpg: Predicted in 2.257000 milli-seconds.
+testing_2: 100%	(left_x:  134   top_y:  232   width:  168   height:  158)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_210.jpg: Predicted in 2.270000 milli-seconds.
+testing_1: 96%	(left_x:  162   top_y:  162   width:   62   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_209.jpg: Predicted in 2.271000 milli-seconds.
+testing_1: 95%	(left_x:  162   top_y:  162   width:   62   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_211.jpg: Predicted in 2.379000 milli-seconds.
+testing_1: 96%	(left_x:  162   top_y:  162   width:   62   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_224.jpg: Predicted in 2.223000 milli-seconds.
+testing_2: 100%	(left_x:  119   top_y:  191   width:  156   height:  189)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_225.jpg: Predicted in 2.307000 milli-seconds.
+testing_2: 100%	(left_x:  121   top_y:  186   width:  149   height:  226)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_226.jpg: Predicted in 2.303000 milli-seconds.
+testing_2: 100%	(left_x:  126   top_y:  207   width:  142   height:  195)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_229.jpg: Predicted in 2.303000 milli-seconds.
+testing_2: 100%	(left_x:  128   top_y:  184   width:  169   height:  235)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_228.jpg: Predicted in 2.044000 milli-seconds.
+testing_2: 100%	(left_x:  135   top_y:  208   width:  151   height:  207)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_227.jpg: Predicted in 2.092000 milli-seconds.
+testing_2: 100%	(left_x:  132   top_y:  231   width:  142   height:  151)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_231.jpg: Predicted in 2.351000 milli-seconds.
+testing_2: 100%	(left_x:  136   top_y:  207   width:  151   height:  168)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_234.jpg: Predicted in 2.121000 milli-seconds.
+testing_2: 100%	(left_x:  122   top_y:  220   width:  156   height:  198)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_230.jpg: Predicted in 2.149000 milli-seconds.
+testing_2: 100%	(left_x:  132   top_y:  189   width:  163   height:  221)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_235.jpg: Predicted in 2.209000 milli-seconds.
+testing_2: 100%	(left_x:  127   top_y:  232   width:  153   height:  186)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_242.jpg: Predicted in 2.222000 milli-seconds.
+testing_1: 98%	(left_x:  164   top_y:  164   width:   59   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_241.jpg: Predicted in 3.362000 milli-seconds.
+testing_1: 97%	(left_x:  164   top_y:  163   width:   59   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_253.jpg: Predicted in 2.499000 milli-seconds.
+testing_2: 100%	(left_x:  136   top_y:  182   width:  149   height:  226)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_260.jpg: Predicted in 2.178000 milli-seconds.
+testing_2: 100%	(left_x:  134   top_y:  188   width:  173   height:  222)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_243.jpg: Predicted in 2.292000 milli-seconds.
+testing_1: 98%	(left_x:  164   top_y:  165   width:   59   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_263.jpg: Predicted in 2.317000 milli-seconds.
+testing_2: 100%	(left_x:  120   top_y:  209   width:  155   height:  202)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_264.jpg: Predicted in 2.271000 milli-seconds.
+testing_2: 100%	(left_x:  119   top_y:  210   width:  157   height:  202)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_272.jpg: Predicted in 2.289000 milli-seconds.
+testing_1: 96%	(left_x:  160   top_y:  171   width:   57   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_271.jpg: Predicted in 2.406000 milli-seconds.
+testing_1: 96%	(left_x:  160   top_y:  171   width:   57   height:  102)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_270.jpg: Predicted in 2.257000 milli-seconds.
+testing_1: 98%	(left_x:  159   top_y:  180   width:   54   height:  108)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_279.jpg: Predicted in 2.358000 milli-seconds.
+testing_1: 93%	(left_x:  162   top_y:  165   width:   63   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_285.jpg: Predicted in 2.158000 milli-seconds.
+testing_2: 100%	(left_x:  129   top_y:  178   width:  169   height:  239)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_289.jpg: Predicted in 2.010000 milli-seconds.
+testing_2: 100%	(left_x:  117   top_y:  195   width:  161   height:  206)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_293.jpg: Predicted in 2.180000 milli-seconds.
+testing_2: 100%	(left_x:  129   top_y:  183   width:  181   height:  236)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_306.jpg: Predicted in 2.181000 milli-seconds.
+testing_1: 94%	(left_x:  163   top_y:  168   width:   64   height:  109)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_297.jpg: Predicted in 2.171000 milli-seconds.
+testing_2: 100%	(left_x:  121   top_y:  214   width:  165   height:  194)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_308.jpg: Predicted in 2.259000 milli-seconds.
+testing_1: 98%	(left_x:  164   top_y:  167   width:   64   height:  109)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_309.jpg: Predicted in 2.317000 milli-seconds.
+testing_1: 98%	(left_x:  165   top_y:  167   width:   64   height:  109)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_307.jpg: Predicted in 2.192000 milli-seconds.
+testing_1: 98%	(left_x:  163   top_y:  167   width:   64   height:  108)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_323.jpg: Predicted in 2.085000 milli-seconds.
+testing_2: 100%	(left_x:  117   top_y:  186   width:  159   height:  223)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_327.jpg: Predicted in 2.118000 milli-seconds.
+testing_2: 100%	(left_x:  129   top_y:  192   width:  179   height:  226)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_335.jpg: Predicted in 2.186000 milli-seconds.
+testing_1: 97%	(left_x:  167   top_y:  177   width:   58   height:  102)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_337.jpg: Predicted in 2.179000 milli-seconds.
+testing_1: 96%	(left_x:  163   top_y:  167   width:   63   height:  110)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_336.jpg: Predicted in 2.201000 milli-seconds.
+testing_1: 95%	(left_x:  163   top_y:  167   width:   62   height:  110)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_338.jpg: Predicted in 2.162000 milli-seconds.
+testing_1: 95%	(left_x:  163   top_y:  166   width:   62   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_348.jpg: Predicted in 2.261000 milli-seconds.
+testing_2: 100%	(left_x:  125   top_y:  182   width:  183   height:  235)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/testing_356.jpg: Predicted in 2.256000 milli-seconds.
+testing_2: 100%	(left_x:  125   top_y:  192   width:  191   height:  227)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_10.jpg: Predicted in 2.321000 milli-seconds.
+we_1: 96%	(left_x:  134   top_y:  145   width:  123   height:   84)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_9.jpg: Predicted in 2.302000 milli-seconds.
+we_1: 94%	(left_x:  119   top_y:  137   width:  152   height:   94)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_12.jpg: Predicted in 2.293000 milli-seconds.
+we_1: 98%	(left_x:  135   top_y:  148   width:  125   height:   80)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_11.jpg: Predicted in 2.092000 milli-seconds.
+we_1: 98%	(left_x:  135   top_y:  148   width:  124   height:   81)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_15.jpg: Predicted in 2.279000 milli-seconds.
+we_2: 100%	(left_x:  151   top_y:  182   width:  160   height:   57)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_13.jpg: Predicted in 2.218000 milli-seconds.
+we_1: 96%	(left_x:  135   top_y:  154   width:  133   height:   73)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_14.jpg: Predicted in 2.206000 milli-seconds.
+we_2: 100%	(left_x:  150   top_y:  178   width:  156   height:   62)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_16.jpg: Predicted in 2.134000 milli-seconds.
+we_2: 100%	(left_x:  149   top_y:  185   width:  173   height:   67)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_17.jpg: Predicted in 2.213000 milli-seconds.
+we_2: 100%	(left_x:  157   top_y:  200   width:  154   height:   62)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_18.jpg: Predicted in 2.184000 milli-seconds.
+we_2: 100%	(left_x:  116   top_y:  212   width:  170   height:   78)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_19.jpg: Predicted in 2.236000 milli-seconds.
+we_2: 95%	(left_x:   85   top_y:  211   width:  154   height:   86)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_22.jpg: Predicted in 2.188000 milli-seconds.
+we_2: 100%	(left_x:   59   top_y:  195   width:  122   height:   63)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_21.jpg: Predicted in 2.078000 milli-seconds.
+we_2: 100%	(left_x:   48   top_y:  204   width:  130   height:   73)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_20.jpg: Predicted in 2.075000 milli-seconds.
+we_2: 98%	(left_x:   49   top_y:  213   width:  142   height:   83)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_24.jpg: Predicted in 2.261000 milli-seconds.
+we_2: 100%	(left_x:   88   top_y:  181   width:  125   height:   52)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_23.jpg: Predicted in 2.058000 milli-seconds.
+we_2: 99%	(left_x:   67   top_y:  182   width:  129   height:   62)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_25.jpg: Predicted in 2.165000 milli-seconds.
+we_2: 100%	(left_x:  103   top_y:  174   width:  137   height:   56)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_26.jpg: Predicted in 2.084000 milli-seconds.
+we_2: 100%	(left_x:  125   top_y:  177   width:  147   height:   58)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_27.jpg: Predicted in 2.253000 milli-seconds.
+we_2: 100%	(left_x:  141   top_y:  176   width:  149   height:   53)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_28.jpg: Predicted in 2.234000 milli-seconds.
+we_2: 100%	(left_x:  154   top_y:  176   width:  151   height:   52)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/22_1_29.jpg: Predicted in 2.457000 milli-seconds.
+we_2: 100%	(left_x:  156   top_y:  176   width:  145   height:   51)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_4.jpg: Predicted in 2.251000 milli-seconds.
+deaf_1: 99%	(left_x:  114   top_y:   13   width:  133   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_3.jpg: Predicted in 2.014000 milli-seconds.
+deaf_1: 99%	(left_x:  117   top_y:   14   width:  143   height:  143)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_5.jpg: Predicted in 2.209000 milli-seconds.
+deaf_1: 99%	(left_x:  116   top_y:   12   width:  133   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_9.jpg: Predicted in 2.321000 milli-seconds.
+deaf_2: 99%	(left_x:  121   top_y:   14   width:   58   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_7.jpg: Predicted in 2.168000 milli-seconds.
+deaf_2: 99%	(left_x:  116   top_y:   14   width:   64   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_8.jpg: Predicted in 2.214000 milli-seconds.
+deaf_2: 99%	(left_x:  121   top_y:   13   width:   59   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_13.jpg: Predicted in 2.251000 milli-seconds.
+deaf_3: 100%	(left_x:  116   top_y:  160   width:  146   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_10.jpg: Predicted in 2.214000 milli-seconds.
+deaf_2: 99%	(left_x:  117   top_y:   11   width:   50   height:  138)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_15.jpg: Predicted in 2.255000 milli-seconds.
+deaf_3: 99%	(left_x:  127   top_y:  159   width:  132   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_14.jpg: Predicted in 2.140000 milli-seconds.
+deaf_3: 99%	(left_x:  123   top_y:  162   width:  132   height:  115)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_18.jpg: Predicted in 2.050000 milli-seconds.
+deaf_3: 100%	(left_x:  102   top_y:  149   width:  182   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_17.jpg: Predicted in 2.176000 milli-seconds.
+deaf_3: 100%	(left_x:  104   top_y:  149   width:  171   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_16.jpg: Predicted in 2.360000 milli-seconds.
+deaf_3: 100%	(left_x:  115   top_y:  151   width:  155   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_21.jpg: Predicted in 2.316000 milli-seconds.
+deaf_3: 100%	(left_x:   84   top_y:  149   width:  224   height:  118)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_20.jpg: Predicted in 2.275000 milli-seconds.
+deaf_3: 100%	(left_x:   88   top_y:  146   width:  215   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_19.jpg: Predicted in 2.181000 milli-seconds.
+deaf_3: 100%	(left_x:   90   top_y:  146   width:  207   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_22.jpg: Predicted in 2.322000 milli-seconds.
+deaf_3: 100%	(left_x:   82   top_y:  151   width:  232   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_23.jpg: Predicted in 2.346000 milli-seconds.
+deaf_3: 100%	(left_x:   81   top_y:  152   width:  234   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_1_24.jpg: Predicted in 2.316000 milli-seconds.
+deaf_3: 100%	(left_x:   80   top_y:  151   width:  235   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_2_3.jpg: Predicted in 2.463000 milli-seconds.
+deaf_3: 100%	(left_x:  165   top_y:   39   width:  169   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_2_4.jpg: Predicted in 2.234000 milli-seconds.
+deaf_3: 100%	(left_x:  161   top_y:   43   width:  174   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_2_6.jpg: Predicted in 2.208000 milli-seconds.
+deaf_3: 100%	(left_x:   75   top_y:   42   width:  333   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_2_5.jpg: Predicted in 2.296000 milli-seconds.
+deaf_3: 100%	(left_x:  118   top_y:   33   width:  244   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_3_4.jpg: Predicted in 2.206000 milli-seconds.
+deaf_3: 99%	(left_x:  159   top_y:   39   width:  164   height:  109)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_3_3.jpg: Predicted in 2.262000 milli-seconds.
+deaf_3: 99%	(left_x:  163   top_y:   32   width:  160   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_3_5.jpg: Predicted in 2.096000 milli-seconds.
+deaf_3: 100%	(left_x:  142   top_y:   38   width:  196   height:  105)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_3_6.jpg: Predicted in 2.221000 milli-seconds.
+deaf_3: 100%	(left_x:  107   top_y:   35   width:  256   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/23_3_7.jpg: Predicted in 2.089000 milli-seconds.
+deaf_3: 99%	(left_x:   76   top_y:   38   width:  327   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_4.jpg: Predicted in 2.222000 milli-seconds.
+non-deaf_1: 100%	(left_x:  151   top_y:   76   width:  199   height:  141)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_6.jpg: Predicted in 2.305000 milli-seconds.
+non-deaf_1: 100%	(left_x:  137   top_y:  109   width:  196   height:  146)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_5.jpg: Predicted in 2.282000 milli-seconds.
+non-deaf_1: 100%	(left_x:  148   top_y:  130   width:  179   height:  134)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_9.jpg: Predicted in 2.206000 milli-seconds.
+non-deaf_1: 100%	(left_x:  137   top_y:  101   width:  196   height:  144)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_7.jpg: Predicted in 2.702000 milli-seconds.
+non-deaf_1: 100%	(left_x:  144   top_y:   92   width:  186   height:  151)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_8.jpg: Predicted in 2.211000 milli-seconds.
+non-deaf_1: 100%	(left_x:  140   top_y:  103   width:  191   height:  143)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_11.jpg: Predicted in 2.163000 milli-seconds.
+non-deaf_1: 100%	(left_x:  134   top_y:   99   width:  198   height:  144)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_12.jpg: Predicted in 2.418000 milli-seconds.
+non-deaf_1: 100%	(left_x:  101   top_y:  100   width:  270   height:  147)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_10.jpg: Predicted in 2.215000 milli-seconds.
+non-deaf_1: 100%	(left_x:  138   top_y:   99   width:  192   height:  145)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_13.jpg: Predicted in 2.134000 milli-seconds.
+non-deaf_1: 100%	(left_x:   72   top_y:  104   width:  321   height:  136)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_14.jpg: Predicted in 2.329000 milli-seconds.
+non-deaf_1: 100%	(left_x:   57   top_y:  101   width:  323   height:  142)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_15.jpg: Predicted in 2.286000 milli-seconds.
+non-deaf_1: 100%	(left_x:   39   top_y:  101   width:  352   height:  145)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_16.jpg: Predicted in 2.623000 milli-seconds.
+non-deaf_1: 100%	(left_x:   35   top_y:   97   width:  360   height:  159)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_25.jpg: Predicted in 2.215000 milli-seconds.
+non-deaf_2: 100%	(left_x:  134   top_y:   25   width:  205   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_26.jpg: Predicted in 2.243000 milli-seconds.
+non-deaf_2: 100%	(left_x:  143   top_y:   42   width:  183   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_28.jpg: Predicted in 2.309000 milli-seconds.
+non-deaf_2: 100%	(left_x:  147   top_y:   45   width:  179   height:   96)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_27.jpg: Predicted in 2.248000 milli-seconds.
+non-deaf_2: 100%	(left_x:  146   top_y:   43   width:  182   height:   96)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_29.jpg: Predicted in 2.155000 milli-seconds.
+non-deaf_2: 99%	(left_x:  155   top_y:   48   width:  166   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_30.jpg: Predicted in 2.302000 milli-seconds.
+non-deaf_2: 100%	(left_x:  153   top_y:   50   width:  170   height:   98)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_32.jpg: Predicted in 2.308000 milli-seconds.
+non-deaf_2: 100%	(left_x:  138   top_y:   46   width:  206   height:  105)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_31.jpg: Predicted in 2.143000 milli-seconds.
+non-deaf_2: 100%	(left_x:  145   top_y:   48   width:  191   height:  102)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_34.jpg: Predicted in 2.207000 milli-seconds.
+non-deaf_2: 100%	(left_x:  115   top_y:   41   width:  241   height:  103)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_33.jpg: Predicted in 2.272000 milli-seconds.
+non-deaf_2: 100%	(left_x:  123   top_y:   43   width:  227   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_35.jpg: Predicted in 2.096000 milli-seconds.
+non-deaf_2: 100%	(left_x:  106   top_y:   38   width:  264   height:  110)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_38.jpg: Predicted in 2.153000 milli-seconds.
+non-deaf_2: 100%	(left_x:   69   top_y:   36   width:  343   height:  111)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_37.jpg: Predicted in 2.215000 milli-seconds.
+non-deaf_2: 99%	(left_x:   84   top_y:   35   width:  311   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_36.jpg: Predicted in 2.032000 milli-seconds.
+non-deaf_2: 100%	(left_x:   93   top_y:   35   width:  293   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_40.jpg: Predicted in 2.272000 milli-seconds.
+non-deaf_2: 97%	(left_x:   76   top_y:   38   width:  338   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_3.jpg: Predicted in 2.094000 milli-seconds.
+non-deaf_1: 100%	(left_x:  117   top_y:  147   width:  179   height:   93)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_4.jpg: Predicted in 2.123000 milli-seconds.
+non-deaf_1: 100%	(left_x:  121   top_y:  143   width:  167   height:   94)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_1_39.jpg: Predicted in 2.124000 milli-seconds.
+non-deaf_2: 98%	(left_x:   68   top_y:   35   width:  345   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_6.jpg: Predicted in 2.184000 milli-seconds.
+non-deaf_1: 100%	(left_x:  113   top_y:  143   width:  181   height:   94)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_5.jpg: Predicted in 2.171000 milli-seconds.
+non-deaf_1: 100%	(left_x:  122   top_y:  146   width:  168   height:   96)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_7.jpg: Predicted in 2.367000 milli-seconds.
+non-deaf_1: 100%	(left_x:  106   top_y:  141   width:  197   height:   94)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_9.jpg: Predicted in 2.271000 milli-seconds.
+non-deaf_1: 100%	(left_x:   83   top_y:  147   width:  241   height:   92)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_8.jpg: Predicted in 2.249000 milli-seconds.
+non-deaf_1: 99%	(left_x:   95   top_y:  145   width:  214   height:   91)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_17.jpg: Predicted in 2.242000 milli-seconds.
+non-deaf_2: 100%	(left_x:  134   top_y:  137   width:  142   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_11.jpg: Predicted in 2.133000 milli-seconds.
+non-deaf_1: 100%	(left_x:   72   top_y:  146   width:  271   height:   94)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_10.jpg: Predicted in 2.140000 milli-seconds.
+non-deaf_1: 100%	(left_x:   66   top_y:  145   width:  279   height:   95)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_20.jpg: Predicted in 2.093000 milli-seconds.
+non-deaf_2: 100%	(left_x:  112   top_y:  124   width:  192   height:  137)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_19.jpg: Predicted in 2.048000 milli-seconds.
+non-deaf_2: 100%	(left_x:  127   top_y:  131   width:  154   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_21.jpg: Predicted in 2.118000 milli-seconds.
+non-deaf_2: 100%	(left_x:  110   top_y:  117   width:  200   height:  150)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_18.jpg: Predicted in 2.115000 milli-seconds.
+non-deaf_2: 100%	(left_x:  136   top_y:  134   width:  139   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_24.jpg: Predicted in 2.126000 milli-seconds.
+non-deaf_2: 100%	(left_x:   80   top_y:  126   width:  256   height:  135)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_23.jpg: Predicted in 2.229000 milli-seconds.
+non-deaf_2: 99%	(left_x:   92   top_y:  122   width:  231   height:  140)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_22.jpg: Predicted in 2.199000 milli-seconds.
+non-deaf_2: 100%	(left_x:  101   top_y:  122   width:  209   height:  141)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_5.jpg: Predicted in 2.206000 milli-seconds.
+bridge: 100%	(left_x:   53   top_y:  204   width:  286   height:   68)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/24_2_25.jpg: Predicted in 2.244000 milli-seconds.
+non-deaf_2: 100%	(left_x:   75   top_y:  128   width:  265   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_4.jpg: Predicted in 2.210000 milli-seconds.
+bridge: 100%	(left_x:   39   top_y:  198   width:  298   height:   69)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_7.jpg: Predicted in 2.291000 milli-seconds.
+bridge: 100%	(left_x:   58   top_y:  198   width:  278   height:   68)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_6.jpg: Predicted in 2.269000 milli-seconds.
+bridge: 100%	(left_x:   53   top_y:  203   width:  286   height:   66)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_9.jpg: Predicted in 2.261000 milli-seconds.
+bridge: 100%	(left_x:  104   top_y:  168   width:  259   height:   69)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_10.jpg: Predicted in 2.223000 milli-seconds.
+bridge: 96%	(left_x:  138   top_y:  195   width:  209   height:   60)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_8.jpg: Predicted in 2.159000 milli-seconds.
+bridge: 100%	(left_x:   80   top_y:  165   width:  264   height:   76)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_13.jpg: Predicted in 2.285000 milli-seconds.
+bridge: 100%	(left_x:  126   top_y:  208   width:  226   height:   62)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_12.jpg: Predicted in 2.336000 milli-seconds.
+bridge: 100%	(left_x:  127   top_y:  210   width:  226   height:   61)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_1_11.jpg: Predicted in 2.337000 milli-seconds.
+bridge: 100%	(left_x:  131   top_y:  212   width:  219   height:   62)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_18.jpg: Predicted in 2.248000 milli-seconds.
+bridge: 100%	(left_x:  128   top_y:   76   width:  282   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_17.jpg: Predicted in 2.297000 milli-seconds.
+bridge: 100%	(left_x:  127   top_y:   78   width:  284   height:   96)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_20.jpg: Predicted in 2.225000 milli-seconds.
+bridge: 100%	(left_x:  151   top_y:   58   width:  265   height:  107)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_48.jpg: Predicted in 2.312000 milli-seconds.
+bridge: 100%	(left_x:  125   top_y:  219   width:  276   height:   86)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_19.jpg: Predicted in 2.256000 milli-seconds.
+bridge: 100%	(left_x:  125   top_y:   77   width:  286   height:   97)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_49.jpg: Predicted in 2.203000 milli-seconds.
+bridge: 100%	(left_x:  130   top_y:  218   width:  276   height:   79)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_52.jpg: Predicted in 2.300000 milli-seconds.
+bridge: 100%	(left_x:  110   top_y:   25   width:  311   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_50.jpg: Predicted in 2.209000 milli-seconds.
+bridge: 100%	(left_x:  131   top_y:  220   width:  278   height:   78)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_55.jpg: Predicted in 2.204000 milli-seconds.
+bridge: 100%	(left_x:   88   top_y:   32   width:  331   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_53.jpg: Predicted in 2.163000 milli-seconds.
+bridge: 100%	(left_x:   85   top_y:   30   width:  334   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_54.jpg: Predicted in 2.421000 milli-seconds.
+bridge: 99%	(left_x:   87   top_y:   31   width:  332   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_56.jpg: Predicted in 2.228000 milli-seconds.
+bridge: 100%	(left_x:   86   top_y:   31   width:  334   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_57.jpg: Predicted in 2.329000 milli-seconds.
+bridge: 100%	(left_x:   87   top_y:   30   width:  332   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_61.jpg: Predicted in 2.336000 milli-seconds.
+bridge: 99%	(left_x:  105   top_y:   25   width:  297   height:  135)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_59.jpg: Predicted in 2.159000 milli-seconds.
+bridge: 100%	(left_x:   91   top_y:   28   width:  325   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_58.jpg: Predicted in 2.234000 milli-seconds.
+bridge: 99%	(left_x:   91   top_y:   28   width:  325   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_60.jpg: Predicted in 2.345000 milli-seconds.
+bridge: 100%	(left_x:   88   top_y:   29   width:  329   height:  119)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_67.jpg: Predicted in 2.262000 milli-seconds.
+bridge: 100%	(left_x:  143   top_y:  227   width:  269   height:   84)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_66.jpg: Predicted in 2.158000 milli-seconds.
+bridge: 100%	(left_x:  143   top_y:  225   width:  267   height:   84)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_72.jpg: Predicted in 2.134000 milli-seconds.
+bridge: 100%	(left_x:  136   top_y:   18   width:  272   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_71.jpg: Predicted in 2.221000 milli-seconds.
+bridge: 100%	(left_x:  144   top_y:   19   width:  276   height:  142)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_4.jpg: Predicted in 2.122000 milli-seconds.
+make: 100%	(left_x:  142   top_y:  126   width:  114   height:  177)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_74.jpg: Predicted in 2.131000 milli-seconds.
+bridge: 100%	(left_x:  135   top_y:   29   width:  277   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/25_2_73.jpg: Predicted in 2.244000 milli-seconds.
+bridge: 100%	(left_x:  132   top_y:   26   width:  283   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_7.jpg: Predicted in 2.414000 milli-seconds.
+make: 100%	(left_x:  141   top_y:  134   width:  109   height:  157)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_5.jpg: Predicted in 2.092000 milli-seconds.
+make: 100%	(left_x:  141   top_y:  117   width:  112   height:  186)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_6.jpg: Predicted in 2.038000 milli-seconds.
+make: 100%	(left_x:  139   top_y:  125   width:  112   height:  173)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_8.jpg: Predicted in 2.238000 milli-seconds.
+make: 100%	(left_x:  140   top_y:  144   width:  111   height:  144)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_10.jpg: Predicted in 2.278000 milli-seconds.
+make: 100%	(left_x:  138   top_y:  128   width:  106   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_9.jpg: Predicted in 2.112000 milli-seconds.
+make: 100%	(left_x:  139   top_y:  145   width:  111   height:  143)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_13.jpg: Predicted in 2.202000 milli-seconds.
+make: 100%	(left_x:  136   top_y:  135   width:  108   height:  155)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_12.jpg: Predicted in 2.253000 milli-seconds.
+make: 100%	(left_x:  137   top_y:  128   width:  106   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_11.jpg: Predicted in 2.098000 milli-seconds.
+make: 100%	(left_x:  138   top_y:  122   width:  104   height:  176)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_14.jpg: Predicted in 2.165000 milli-seconds.
+make: 100%	(left_x:  132   top_y:  146   width:  114   height:  143)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_15.jpg: Predicted in 2.186000 milli-seconds.
+make: 100%	(left_x:  133   top_y:  151   width:  114   height:  135)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_17.jpg: Predicted in 2.268000 milli-seconds.
+make: 100%	(left_x:  136   top_y:  133   width:  107   height:  155)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_18.jpg: Predicted in 2.133000 milli-seconds.
+make: 100%	(left_x:  136   top_y:  124   width:  105   height:  174)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_16.jpg: Predicted in 2.305000 milli-seconds.
+make: 100%	(left_x:  133   top_y:  150   width:  114   height:  135)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_10.jpg: Predicted in 2.137000 milli-seconds.
+make: 100%	(left_x:  114   top_y:   22   width:  247   height:  326)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_9.jpg: Predicted in 2.099000 milli-seconds.
+make: 100%	(left_x:  126   top_y:   63   width:  226   height:  298)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_1_19.jpg: Predicted in 2.251000 milli-seconds.
+make: 100%	(left_x:  136   top_y:  127   width:  104   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_11.jpg: Predicted in 2.225000 milli-seconds.
+make: 100%	(left_x:  121   top_y:   33   width:  232   height:  304)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_12.jpg: Predicted in 2.174000 milli-seconds.
+make: 100%	(left_x:  137   top_y:   35   width:  194   height:  281)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_13.jpg: Predicted in 2.172000 milli-seconds.
+make: 100%	(left_x:  134   top_y:   54   width:  193   height:  257)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_14.jpg: Predicted in 2.031000 milli-seconds.
+make: 100%	(left_x:  136   top_y:   74   width:  191   height:  223)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_16.jpg: Predicted in 2.071000 milli-seconds.
+make: 100%	(left_x:  143   top_y:   90   width:  178   height:  212)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_17.jpg: Predicted in 2.118000 milli-seconds.
+make: 100%	(left_x:  143   top_y:   93   width:  177   height:  210)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_15.jpg: Predicted in 2.053000 milli-seconds.
+make: 100%	(left_x:  143   top_y:   91   width:  177   height:  211)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_18.jpg: Predicted in 2.313000 milli-seconds.
+make: 100%	(left_x:  134   top_y:   86   width:  190   height:  229)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_19.jpg: Predicted in 2.225000 milli-seconds.
+make: 100%	(left_x:  134   top_y:   64   width:  188   height:  265)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_20.jpg: Predicted in 2.182000 milli-seconds.
+make: 98%	(left_x:  131   top_y:   68   width:  197   height:  252)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_21.jpg: Predicted in 2.119000 milli-seconds.
+make: 100%	(left_x:  128   top_y:   55   width:  204   height:  270)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_23.jpg: Predicted in 2.266000 milli-seconds.
+make: 100%	(left_x:  115   top_y:   27   width:  236   height:  316)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_22.jpg: Predicted in 2.152000 milli-seconds.
+make: 100%	(left_x:  123   top_y:   31   width:  215   height:  313)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_24.jpg: Predicted in 2.071000 milli-seconds.
+make: 100%	(left_x:  120   top_y:   28   width:  225   height:  316)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_25.jpg: Predicted in 2.172000 milli-seconds.
+make: 100%	(left_x:  124   top_y:   39   width:  214   height:  296)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_26.jpg: Predicted in 2.088000 milli-seconds.
+make: 100%	(left_x:  127   top_y:   54   width:  207   height:  268)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_27.jpg: Predicted in 2.104000 milli-seconds.
+make: 100%	(left_x:  129   top_y:   56   width:  204   height:  262)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_28.jpg: Predicted in 2.123000 milli-seconds.
+make: 100%	(left_x:  128   top_y:   63   width:  202   height:  246)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_30.jpg: Predicted in 2.200000 milli-seconds.
+make: 100%	(left_x:  126   top_y:   81   width:  205   height:  204)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_31.jpg: Predicted in 2.049000 milli-seconds.
+make: 100%	(left_x:  123   top_y:   85   width:  210   height:  201)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_29.jpg: Predicted in 2.180000 milli-seconds.
+make: 100%	(left_x:  122   top_y:   56   width:  213   height:  246)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_34.jpg: Predicted in 2.124000 milli-seconds.
+make: 99%	(left_x:  109   top_y:   71   width:  224   height:  235)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_32.jpg: Predicted in 2.132000 milli-seconds.
+make: 100%	(left_x:  124   top_y:   86   width:  208   height:  202)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_33.jpg: Predicted in 2.344000 milli-seconds.
+make: 99%	(left_x:  114   top_y:   84   width:  217   height:  206)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_36.jpg: Predicted in 2.202000 milli-seconds.
+make: 100%	(left_x:  111   top_y:   65   width:  223   height:  245)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_35.jpg: Predicted in 2.225000 milli-seconds.
+make: 100%	(left_x:  116   top_y:   75   width:  211   height:  228)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_37.jpg: Predicted in 2.345000 milli-seconds.
+make: 100%	(left_x:  127   top_y:   48   width:  207   height:  278)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_39.jpg: Predicted in 2.067000 milli-seconds.
+make: 100%	(left_x:  123   top_y:   38   width:  213   height:  299)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_38.jpg: Predicted in 2.185000 milli-seconds.
+make: 100%	(left_x:  125   top_y:   42   width:  211   height:  290)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_40.jpg: Predicted in 2.167000 milli-seconds.
+make: 100%	(left_x:  124   top_y:   42   width:  210   height:  292)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_41.jpg: Predicted in 2.180000 milli-seconds.
+make: 100%	(left_x:  125   top_y:   49   width:  212   height:  280)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_43.jpg: Predicted in 2.201000 milli-seconds.
+make: 100%	(left_x:  129   top_y:   59   width:  206   height:  259)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_42.jpg: Predicted in 2.221000 milli-seconds.
+make: 100%	(left_x:  127   top_y:   56   width:  207   height:  267)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_44.jpg: Predicted in 2.148000 milli-seconds.
+make: 100%	(left_x:  130   top_y:   67   width:  201   height:  243)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_45.jpg: Predicted in 2.162000 milli-seconds.
+make: 99%	(left_x:  114   top_y:   68   width:  218   height:  231)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_46.jpg: Predicted in 2.177000 milli-seconds.
+make: 100%	(left_x:  131   top_y:   97   width:  196   height:  208)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_49.jpg: Predicted in 2.132000 milli-seconds.
+make: 100%	(left_x:  121   top_y:  100   width:  211   height:  219)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_47.jpg: Predicted in 2.194000 milli-seconds.
+make: 100%	(left_x:  131   top_y:   97   width:  197   height:  209)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_48.jpg: Predicted in 2.245000 milli-seconds.
+make: 100%	(left_x:  129   top_y:  100   width:  199   height:  206)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_50.jpg: Predicted in 2.278000 milli-seconds.
+make: 100%	(left_x:  111   top_y:   93   width:  222   height:  234)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_52.jpg: Predicted in 2.295000 milli-seconds.
+make: 100%	(left_x:  120   top_y:   52   width:  221   height:  325)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_51.jpg: Predicted in 2.258000 milli-seconds.
+make: 100%	(left_x:  121   top_y:   70   width:  216   height:  281)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_53.jpg: Predicted in 2.265000 milli-seconds.
+make: 100%	(left_x:  121   top_y:   47   width:  224   height:  332)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_55.jpg: Predicted in 2.418000 milli-seconds.
+make: 100%	(left_x:  120   top_y:   52   width:  225   height:  323)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_54.jpg: Predicted in 2.204000 milli-seconds.
+make: 100%	(left_x:  122   top_y:   49   width:  221   height:  329)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_56.jpg: Predicted in 2.305000 milli-seconds.
+make: 100%	(left_x:  122   top_y:   51   width:  218   height:  313)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_57.jpg: Predicted in 2.207000 milli-seconds.
+make: 100%	(left_x:  126   top_y:   57   width:  208   height:  281)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_58.jpg: Predicted in 2.215000 milli-seconds.
+make: 100%	(left_x:  115   top_y:   71   width:  216   height:  236)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_61.jpg: Predicted in 2.138000 milli-seconds.
+make: 100%	(left_x:  109   top_y:   99   width:  224   height:  220)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_59.jpg: Predicted in 2.353000 milli-seconds.
+make: 100%	(left_x:  114   top_y:   97   width:  215   height:  218)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_60.jpg: Predicted in 2.119000 milli-seconds.
+make: 100%	(left_x:  110   top_y:   99   width:  223   height:  218)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_64.jpg: Predicted in 2.173000 milli-seconds.
+make: 100%	(left_x:  119   top_y:   75   width:  228   height:  272)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_63.jpg: Predicted in 2.243000 milli-seconds.
+make: 100%	(left_x:  125   top_y:   92   width:  208   height:  245)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_62.jpg: Predicted in 2.366000 milli-seconds.
+make: 100%	(left_x:  114   top_y:   90   width:  226   height:  239)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_65.jpg: Predicted in 2.291000 milli-seconds.
+make: 100%	(left_x:  113   top_y:   58   width:  247   height:  306)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_66.jpg: Predicted in 2.232000 milli-seconds.
+make: 100%	(left_x:  115   top_y:   54   width:  241   height:  319)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_69.jpg: Predicted in 2.307000 milli-seconds.
+make: 100%	(left_x:  127   top_y:   71   width:  219   height:  259)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_67.jpg: Predicted in 2.210000 milli-seconds.
+make: 100%	(left_x:  115   top_y:   59   width:  240   height:  303)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_68.jpg: Predicted in 2.256000 milli-seconds.
+make: 100%	(left_x:  118   top_y:   65   width:  235   height:  279)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_70.jpg: Predicted in 2.169000 milli-seconds.
+make: 100%	(left_x:  132   top_y:   73   width:  209   height:  241)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_71.jpg: Predicted in 2.216000 milli-seconds.
+make: 100%	(left_x:  119   top_y:  111   width:  223   height:  210)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_72.jpg: Predicted in 2.173000 milli-seconds.
+make: 100%	(left_x:  117   top_y:  116   width:  229   height:  206)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_2.jpg: Predicted in 2.117000 milli-seconds.
+twelve: 100%	(left_x:    7   top_y:   99   width:  132   height:  202)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/26_2_73.jpg: Predicted in 2.372000 milli-seconds.
+make: 100%	(left_x:  114   top_y:  119   width:  232   height:  203)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_1.jpg: Predicted in 2.273000 milli-seconds.
+twelve: 100%	(left_x:   10   top_y:   98   width:  134   height:  198)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_5.jpg: Predicted in 2.299000 milli-seconds.
+twelve: 100%	(left_x:    8   top_y:   82   width:  148   height:  204)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_4.jpg: Predicted in 2.221000 milli-seconds.
+twelve: 100%	(left_x:   10   top_y:  107   width:  139   height:  192)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_3.jpg: Predicted in 2.105000 milli-seconds.
+twelve: 100%	(left_x:    2   top_y:  108   width:  138   height:  200)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_6.jpg: Predicted in 2.239000 milli-seconds.
+twelve: 100%	(left_x:   13   top_y:   73   width:  144   height:  206)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_8.jpg: Predicted in 2.140000 milli-seconds.
+twelve: 100%	(left_x:    4   top_y:   79   width:  137   height:  205)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_7.jpg: Predicted in 2.175000 milli-seconds.
+twelve: 100%	(left_x:    9   top_y:   78   width:  144   height:  200)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_10.jpg: Predicted in 2.122000 milli-seconds.
+twelve: 99%	(left_x:   29   top_y:   72   width:  138   height:  212)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_11.jpg: Predicted in 2.277000 milli-seconds.
+twelve: 100%	(left_x:   39   top_y:   72   width:  143   height:  195)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_9.jpg: Predicted in 2.169000 milli-seconds.
+twelve: 100%	(left_x:   11   top_y:   79   width:  157   height:  213)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_12.jpg: Predicted in 2.155000 milli-seconds.
+twelve: 100%	(left_x:   48   top_y:   82   width:  147   height:  191)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_13.jpg: Predicted in 2.328000 milli-seconds.
+twelve: 100%	(left_x:   40   top_y:   75   width:  134   height:  210)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_14.jpg: Predicted in 2.029000 milli-seconds.
+twelve: 100%	(left_x:   40   top_y:   75   width:  140   height:  206)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_15.jpg: Predicted in 2.180000 milli-seconds.
+twelve: 100%	(left_x:   42   top_y:   70   width:  130   height:  199)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_16.jpg: Predicted in 2.194000 milli-seconds.
+twelve: 100%	(left_x:   43   top_y:   65   width:  124   height:  198)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_17.jpg: Predicted in 2.207000 milli-seconds.
+twelve: 100%	(left_x:   37   top_y:   56   width:  130   height:  195)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_19.jpg: Predicted in 2.275000 milli-seconds.
+twelve: 100%	(left_x:    9   top_y:   65   width:  139   height:  208)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_18.jpg: Predicted in 2.236000 milli-seconds.
+twelve: 100%	(left_x:   35   top_y:   53   width:  126   height:  204)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_20.jpg: Predicted in 2.161000 milli-seconds.
+twelve: 100%	(left_x:   20   top_y:   63   width:  144   height:  211)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_21.jpg: Predicted in 2.610000 milli-seconds.
+twelve: 100%	(left_x:   40   top_y:   65   width:  130   height:  203)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_22.jpg: Predicted in 2.504000 milli-seconds.
+twelve: 100%	(left_x:   41   top_y:   60   width:  128   height:  204)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_23.jpg: Predicted in 2.579000 milli-seconds.
+twelve: 100%	(left_x:   43   top_y:   44   width:  130   height:  193)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_24.jpg: Predicted in 2.324000 milli-seconds.
+twelve: 100%	(left_x:   42   top_y:   43   width:  128   height:  195)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_27.jpg: Predicted in 2.479000 milli-seconds.
+twelve: 100%	(left_x:   37   top_y:   58   width:  125   height:  184)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_25.jpg: Predicted in 2.377000 milli-seconds.
+twelve: 100%	(left_x:   40   top_y:   49   width:  127   height:  187)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_26.jpg: Predicted in 2.375000 milli-seconds.
+twelve: 100%	(left_x:   37   top_y:   44   width:  124   height:  188)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_29.jpg: Predicted in 2.425000 milli-seconds.
+twelve: 100%	(left_x:   38   top_y:   69   width:  119   height:  176)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_30.jpg: Predicted in 2.280000 milli-seconds.
+twelve: 100%	(left_x:   38   top_y:   71   width:  121   height:  172)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_28.jpg: Predicted in 2.231000 milli-seconds.
+twelve: 100%	(left_x:   44   top_y:   79   width:  119   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_33.jpg: Predicted in 2.139000 milli-seconds.
+twelve: 100%	(left_x:    1   top_y:   72   width:  117   height:  190)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_32.jpg: Predicted in 2.469000 milli-seconds.
+twelve: 100%	(left_x:   37   top_y:   67   width:  120   height:  178)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_31.jpg: Predicted in 2.181000 milli-seconds.
+twelve: 100%	(left_x:   38   top_y:   70   width:  120   height:  173)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_37.jpg: Predicted in 2.265000 milli-seconds.
+twelve: 100%	(left_x:   50   top_y:   58   width:  124   height:  171)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_36.jpg: Predicted in 2.245000 milli-seconds.
+twelve: 99%	(left_x:   68   top_y:   32   width:  124   height:  175)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_34.jpg: Predicted in 2.506000 milli-seconds.
+twelve: 100%	(left_x:   -6   top_y:   83   width:  133   height:  193)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_40.jpg: Predicted in 2.424000 milli-seconds.
+twelve: 99%	(left_x:   65   top_y:   28   width:  129   height:  197)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_38.jpg: Predicted in 2.296000 milli-seconds.
+twelve: 100%	(left_x:   50   top_y:   54   width:  123   height:  168)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_42.jpg: Predicted in 2.379000 milli-seconds.
+twelve: 100%	(left_x:   43   top_y:   38   width:  112   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_43.jpg: Predicted in 2.431000 milli-seconds.
+twelve: 100%	(left_x:   26   top_y:   44   width:  117   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_44.jpg: Predicted in 2.339000 milli-seconds.
+twelve: 100%	(left_x:   41   top_y:   59   width:  113   height:  156)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_9.jpg: Predicted in 2.230000 milli-seconds.
+twelve: 100%	(left_x:   79   top_y:  177   width:   75   height:  105)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_1_45.jpg: Predicted in 2.333000 milli-seconds.
+twelve: 100%	(left_x:   42   top_y:   58   width:  117   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_8.jpg: Predicted in 2.258000 milli-seconds.
+twelve: 99%	(left_x:   78   top_y:  181   width:   78   height:  100)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_10.jpg: Predicted in 2.244000 milli-seconds.
+twelve: 97%	(left_x:   81   top_y:  160   width:   79   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_11.jpg: Predicted in 2.386000 milli-seconds.
+twelve: 99%	(left_x:   81   top_y:  159   width:   78   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_12.jpg: Predicted in 2.212000 milli-seconds.
+twelve: 99%	(left_x:   80   top_y:  159   width:   79   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_13.jpg: Predicted in 2.356000 milli-seconds.
+twelve: 99%	(left_x:   79   top_y:  158   width:   80   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_14.jpg: Predicted in 2.263000 milli-seconds.
+twelve: 99%	(left_x:   80   top_y:  157   width:   79   height:  126)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_16.jpg: Predicted in 2.245000 milli-seconds.
+twelve: 100%	(left_x:   83   top_y:  146   width:   83   height:  137)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_17.jpg: Predicted in 2.428000 milli-seconds.
+twelve: 99%	(left_x:   94   top_y:  151   width:   72   height:  133)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_15.jpg: Predicted in 2.432000 milli-seconds.
+twelve: 99%	(left_x:   77   top_y:  151   width:   82   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_19.jpg: Predicted in 2.226000 milli-seconds.
+twelve: 96%	(left_x:   92   top_y:  156   width:   73   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_18.jpg: Predicted in 2.417000 milli-seconds.
+twelve: 99%	(left_x:   93   top_y:  151   width:   74   height:  133)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_20.jpg: Predicted in 2.510000 milli-seconds.
+twelve: 96%	(left_x:   82   top_y:  157   width:   85   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_21.jpg: Predicted in 2.263000 milli-seconds.
+twelve: 93%	(left_x:   84   top_y:  163   width:   79   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_4.jpg: Predicted in 2.324000 milli-seconds.
+team: 99%	(left_x:   91   top_y:  173   width:  231   height:   91)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_3.jpg: Predicted in 2.294000 milli-seconds.
+team: 100%	(left_x:   91   top_y:  163   width:  233   height:   97)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/27_2_22.jpg: Predicted in 2.540000 milli-seconds.
+twelve: 98%	(left_x:   83   top_y:  163   width:   80   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_5.jpg: Predicted in 2.415000 milli-seconds.
+team: 100%	(left_x:   91   top_y:  174   width:  229   height:   88)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_6.jpg: Predicted in 2.372000 milli-seconds.
+team: 100%	(left_x:   97   top_y:  150   width:  220   height:   92)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_7.jpg: Predicted in 2.384000 milli-seconds.
+team: 100%	(left_x:   94   top_y:  148   width:  226   height:   94)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_8.jpg: Predicted in 2.136000 milli-seconds.
+team: 100%	(left_x:   89   top_y:  146   width:  231   height:   95)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_9.jpg: Predicted in 2.319000 milli-seconds.
+team: 99%	(left_x:   86   top_y:  149   width:  239   height:   89)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_10.jpg: Predicted in 2.181000 milli-seconds.
+team: 99%	(left_x:   84   top_y:  146   width:  243   height:   86)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_11.jpg: Predicted in 2.176000 milli-seconds.
+team: 100%	(left_x:   80   top_y:  144   width:  250   height:   88)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_13.jpg: Predicted in 2.212000 milli-seconds.
+team: 100%	(left_x:   82   top_y:  145   width:  240   height:   83)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_12.jpg: Predicted in 2.199000 milli-seconds.
+team: 100%	(left_x:   81   top_y:  145   width:  248   height:   87)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_14.jpg: Predicted in 2.106000 milli-seconds.
+team: 100%	(left_x:   89   top_y:  145   width:  234   height:   83)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_15.jpg: Predicted in 2.063000 milli-seconds.
+team: 100%	(left_x:   94   top_y:  145   width:  228   height:   84)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_16.jpg: Predicted in 2.359000 milli-seconds.
+team: 99%	(left_x:  105   top_y:  146   width:  220   height:   83)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_17.jpg: Predicted in 2.077000 milli-seconds.
+team: 97%	(left_x:  104   top_y:  147   width:  227   height:   85)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_18.jpg: Predicted in 2.290000 milli-seconds.
+team: 99%	(left_x:  119   top_y:  143   width:  197   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_21.jpg: Predicted in 2.186000 milli-seconds.
+team: 95%	(left_x:  113   top_y:  147   width:  201   height:   84)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_20.jpg: Predicted in 2.140000 milli-seconds.
+team: 99%	(left_x:  106   top_y:  144   width:  216   height:   84)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_19.jpg: Predicted in 2.263000 milli-seconds.
+team: 99%	(left_x:  106   top_y:  144   width:  220   height:   90)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_23.jpg: Predicted in 2.373000 milli-seconds.
+team: 99%	(left_x:  105   top_y:  145   width:  205   height:   85)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/28_1_22.jpg: Predicted in 2.363000 milli-seconds.
+team: 99%	(left_x:  106   top_y:  146   width:  208   height:   84)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_1.jpg: Predicted in 2.175000 milli-seconds.
+now: 99%	(left_x:   84   top_y:  112   width:  312   height:  118)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_3.jpg: Predicted in 2.150000 milli-seconds.
+now: 100%	(left_x:   89   top_y:   60   width:  318   height:  139)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_4.jpg: Predicted in 2.292000 milli-seconds.
+now: 99%	(left_x:   93   top_y:   74   width:  308   height:  105)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_2.jpg: Predicted in 2.248000 milli-seconds.
+now: 99%	(left_x:   81   top_y:   72   width:  333   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_5.jpg: Predicted in 2.169000 milli-seconds.
+now: 97%	(left_x:   82   top_y:  125   width:  331   height:  139)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_7.jpg: Predicted in 2.289000 milli-seconds.
+now: 100%	(left_x:  105   top_y:   82   width:  286   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_6.jpg: Predicted in 2.300000 milli-seconds.
+now: 96%	(left_x:   91   top_y:   35   width:  315   height:   87)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_8.jpg: Predicted in 2.232000 milli-seconds.
+now: 100%	(left_x:  107   top_y:   95   width:  280   height:  118)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_9.jpg: Predicted in 2.257000 milli-seconds.
+now: 100%	(left_x:  118   top_y:  110   width:  258   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_11.jpg: Predicted in 2.282000 milli-seconds.
+now: 100%	(left_x:   24   top_y:  225   width:  378   height:  171)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_12.jpg: Predicted in 2.347000 milli-seconds.
+now: 100%	(left_x:   32   top_y:  219   width:  366   height:  178)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_10.jpg: Predicted in 2.248000 milli-seconds.
+now: 98%	(left_x:  110   top_y:  135   width:  279   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_14.jpg: Predicted in 2.127000 milli-seconds.
+now: 100%	(left_x:   50   top_y:  192   width:  341   height:  185)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_13.jpg: Predicted in 2.125000 milli-seconds.
+now: 100%	(left_x:   11   top_y:  161   width:  355   height:  175)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_18.jpg: Predicted in 2.385000 milli-seconds.
+now: 100%	(left_x:    7   top_y:  134   width:  364   height:  158)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_16.jpg: Predicted in 2.058000 milli-seconds.
+now: 100%	(left_x:   42   top_y:  216   width:  353   height:  181)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_17.jpg: Predicted in 2.210000 milli-seconds.
+now: 100%	(left_x:   21   top_y:  144   width:  388   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_15.jpg: Predicted in 2.279000 milli-seconds.
+now: 100%	(left_x:   27   top_y:  212   width:  365   height:  182)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_20.jpg: Predicted in 2.207000 milli-seconds.
+now: 100%	(left_x:   21   top_y:  143   width:  387   height:  169)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/41_19.jpg: Predicted in 2.300000 milli-seconds.
+now: 100%	(left_x:   30   top_y:  196   width:  365   height:  190)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_1.jpg: Predicted in 2.156000 milli-seconds.
+good: 95%	(left_x:  130   top_y:  130   width:   91   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_3.jpg: Predicted in 2.326000 milli-seconds.
+good: 99%	(left_x:  129   top_y:   83   width:   79   height:  103)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_2.jpg: Predicted in 2.197000 milli-seconds.
+good: 100%	(left_x:  103   top_y:  134   width:   75   height:   97)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_4.jpg: Predicted in 2.269000 milli-seconds.
+good: 96%	(left_x:  151   top_y:  138   width:   76   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_5.jpg: Predicted in 2.170000 milli-seconds.
+good: 97%	(left_x:  158   top_y:  132   width:   75   height:  112)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_6.jpg: Predicted in 2.099000 milli-seconds.
+good: 92%	(left_x:  158   top_y:  132   width:   75   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_8.jpg: Predicted in 2.328000 milli-seconds.
+good: 100%	(left_x:  161   top_y:  133   width:   79   height:  107)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_7.jpg: Predicted in 2.167000 milli-seconds.
+good: 92%	(left_x:   68   top_y:  159   width:  143   height:  187)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_9.jpg: Predicted in 2.269000 milli-seconds.
+good: 95%	(left_x:  154   top_y:  126   width:   73   height:   99)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_11.jpg: Predicted in 2.193000 milli-seconds.
+good: 100%	(left_x:  144   top_y:  102   width:  129   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_10.jpg: Predicted in 2.415000 milli-seconds.
+good: 95%	(left_x:  201   top_y:  112   width:  103   height:  125)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_15.jpg: Predicted in 2.344000 milli-seconds.
+good: 100%	(left_x:  135   top_y:  163   width:  130   height:  166)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_12.jpg: Predicted in 2.206000 milli-seconds.
+good: 100%	(left_x:  168   top_y:  149   width:  125   height:  173)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_13.jpg: Predicted in 2.392000 milli-seconds.
+good: 100%	(left_x:  136   top_y:  148   width:  107   height:  176)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_14.jpg: Predicted in 2.312000 milli-seconds.
+good: 100%	(left_x:  137   top_y:  110   width:  128   height:  159)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_18.jpg: Predicted in 2.376000 milli-seconds.
+good: 100%	(left_x:  137   top_y:  161   width:  120   height:  161)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_16.jpg: Predicted in 2.422000 milli-seconds.
+good: 99%	(left_x:  138   top_y:  104   width:  118   height:  180)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_17.jpg: Predicted in 2.249000 milli-seconds.
+good: 100%	(left_x:  139   top_y:  114   width:  121   height:  164)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_19.jpg: Predicted in 2.305000 milli-seconds.
+good: 100%	(left_x:  141   top_y:  144   width:  120   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/42_20.jpg: Predicted in 2.274000 milli-seconds.
+good: 100%	(left_x:  135   top_y:  147   width:  108   height:  173)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_1.jpg: Predicted in 2.032000 milli-seconds.
+this: 99%	(left_x:  155   top_y:   75   width:  110   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_2.jpg: Predicted in 2.245000 milli-seconds.
+this: 99%	(left_x:  134   top_y:   72   width:  106   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_3.jpg: Predicted in 2.145000 milli-seconds.
+this: 99%	(left_x:  154   top_y:  105   width:  100   height:  128)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_5.jpg: Predicted in 2.169000 milli-seconds.
+this: 99%	(left_x:  152   top_y:   45   width:  101   height:  115)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_4.jpg: Predicted in 2.230000 milli-seconds.
+this: 98%	(left_x:  128   top_y:   26   width:  107   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_6.jpg: Predicted in 2.220000 milli-seconds.
+this: 99%	(left_x:  167   top_y:   46   width:  105   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_8.jpg: Predicted in 2.200000 milli-seconds.
+this: 99%	(left_x:  145   top_y:   87   width:   98   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_7.jpg: Predicted in 2.323000 milli-seconds.
+this: 99%	(left_x:  152   top_y:   87   width:   98   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_10.jpg: Predicted in 2.302000 milli-seconds.
+this: 98%	(left_x:  169   top_y:   82   width:  100   height:  131)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_9.jpg: Predicted in 2.361000 milli-seconds.
+this: 100%	(left_x:  156   top_y:   74   width:  106   height:  130)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_11.jpg: Predicted in 2.216000 milli-seconds.
+this: 100%	(left_x:   65   top_y:  155   width:  130   height:  145)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_12.jpg: Predicted in 2.264000 milli-seconds.
+this: 100%	(left_x:  106   top_y:  156   width:  138   height:  160)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_13.jpg: Predicted in 2.132000 milli-seconds.
+this: 100%	(left_x:   47   top_y:  132   width:  140   height:  123)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_14.jpg: Predicted in 2.190000 milli-seconds.
+this: 100%	(left_x:   85   top_y:  187   width:  131   height:  173)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_16.jpg: Predicted in 2.133000 milli-seconds.
+this: 100%	(left_x:   51   top_y:  147   width:  144   height:  141)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_15.jpg: Predicted in 2.406000 milli-seconds.
+this: 100%	(left_x:   76   top_y:  199   width:  142   height:  166)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_17.jpg: Predicted in 2.474000 milli-seconds.
+this: 100%	(left_x:   46   top_y:  147   width:  146   height:  140)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_18.jpg: Predicted in 2.236000 milli-seconds.
+this: 100%	(left_x:   72   top_y:  200   width:  123   height:  187)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_19.jpg: Predicted in 2.187000 milli-seconds.
+this: 100%	(left_x:   51   top_y:  205   width:  118   height:  173)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_2.jpg: Predicted in 2.140000 milli-seconds.
+hello_1: 100%	(left_x:  157   top_y:    7   width:   93   height:   65)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_1.jpg: Predicted in 2.318000 milli-seconds.
+hello_1: 100%	(left_x:  132   top_y:    8   width:   99   height:   69)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/43_20.jpg: Predicted in 2.199000 milli-seconds.
+this: 98%	(left_x:   18   top_y:  142   width:  144   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_3.jpg: Predicted in 2.081000 milli-seconds.
+hello_1: 100%	(left_x:  172   top_y:    9   width:   91   height:   64)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_4.jpg: Predicted in 2.135000 milli-seconds.
+hello_1: 96%	(left_x:  148   top_y:    7   width:   91   height:   68)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_7.jpg: Predicted in 2.133000 milli-seconds.
+hello_2: 99%	(left_x:  118   top_y:   46   width:  199   height:  219)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_6.jpg: Predicted in 2.175000 milli-seconds.
+hello_2: 100%	(left_x:  113   top_y:   62   width:  206   height:  214)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_5.jpg: Predicted in 2.348000 milli-seconds.
+hello_1: 96%	(left_x:  146   top_y:    9   width:   89   height:   68)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_10.jpg: Predicted in 2.187000 milli-seconds.
+hello_2: 99%	(left_x:  102   top_y:   80   width:  198   height:  152)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_9.jpg: Predicted in 2.180000 milli-seconds.
+hello_2: 100%	(left_x:  110   top_y:   72   width:  212   height:  166)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_8.jpg: Predicted in 2.114000 milli-seconds.
+hello_2: 96%	(left_x:   91   top_y:   43   width:  218   height:  240)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_13.jpg: Predicted in 2.173000 milli-seconds.
+hello_1: 98%	(left_x:  110   top_y:   19   width:  154   height:  205)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_12.jpg: Predicted in 2.130000 milli-seconds.
+hello_1: 100%	(left_x:  138   top_y:    5   width:  146   height:  255)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_11.jpg: Predicted in 2.124000 milli-seconds.
+hello_1: 99%	(left_x:  145   top_y:   19   width:  151   height:  241)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_15.jpg: Predicted in 2.206000 milli-seconds.
+hello_1: 100%	(left_x:  154   top_y:   24   width:  153   height:  238)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_14.jpg: Predicted in 2.349000 milli-seconds.
+hello_1: 100%	(left_x:   94   top_y:   25   width:  147   height:  246)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_18.jpg: Predicted in 2.496000 milli-seconds.
+hello_2: 100%	(left_x:   83   top_y:  108   width:  277   height:  220)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_16.jpg: Predicted in 2.323000 milli-seconds.
+hello_2: 100%	(left_x:   41   top_y:  114   width:  294   height:  213)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_17.jpg: Predicted in 2.349000 milli-seconds.
+hello_2: 100%	(left_x:   95   top_y:   87   width:  252   height:  263)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_19.jpg: Predicted in 2.241000 milli-seconds.
+hello_2: 100%	(left_x:   65   top_y:  104   width:  296   height:  227)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_1.jpg: Predicted in 2.310000 milli-seconds.
+service: 100%	(left_x:  116   top_y:   69   width:  178   height:  214)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/44_20.jpg: Predicted in 2.250000 milli-seconds.
+hello_2: 100%	(left_x:   93   top_y:   98   width:  288   height:  239)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_2.jpg: Predicted in 2.229000 milli-seconds.
+service: 100%	(left_x:   61   top_y:  102   width:  204   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_3.jpg: Predicted in 2.316000 milli-seconds.
+service: 100%	(left_x:   90   top_y:   25   width:  249   height:  213)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_4.jpg: Predicted in 2.147000 milli-seconds.
+service: 100%	(left_x:   83   top_y:   30   width:  253   height:  205)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_5.jpg: Predicted in 2.118000 milli-seconds.
+service: 100%	(left_x:   68   top_y:   70   width:  197   height:  173)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_6.jpg: Predicted in 2.154000 milli-seconds.
+service: 100%	(left_x:   84   top_y:   56   width:  252   height:  218)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_8.jpg: Predicted in 2.106000 milli-seconds.
+service: 100%	(left_x:   92   top_y:   69   width:  214   height:  202)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_9.jpg: Predicted in 2.318000 milli-seconds.
+service: 100%	(left_x:   87   top_y:  101   width:  179   height:  167)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_7.jpg: Predicted in 2.119000 milli-seconds.
+service: 100%	(left_x:  114   top_y:   62   width:  206   height:  206)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_12.jpg: Predicted in 2.254000 milli-seconds.
+service: 100%	(left_x:  109   top_y:  119   width:  239   height:  218)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_10.jpg: Predicted in 2.196000 milli-seconds.
+service: 99%	(left_x:  105   top_y:   46   width:  272   height:  226)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_11.jpg: Predicted in 2.204000 milli-seconds.
+service: 100%	(left_x:  105   top_y:  123   width:  258   height:  205)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_13.jpg: Predicted in 2.101000 milli-seconds.
+service: 100%	(left_x:   94   top_y:  103   width:  220   height:  260)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_14.jpg: Predicted in 2.190000 milli-seconds.
+service: 100%	(left_x:   70   top_y:  104   width:  231   height:  269)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_17.jpg: Predicted in 2.193000 milli-seconds.
+service: 100%	(left_x:   59   top_y:   89   width:  230   height:  279)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_16.jpg: Predicted in 2.040000 milli-seconds.
+service: 100%	(left_x:   60   top_y:   95   width:  256   height:  256)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_15.jpg: Predicted in 2.102000 milli-seconds.
+service: 100%	(left_x:   76   top_y:  111   width:  226   height:  219)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_19.jpg: Predicted in 2.217000 milli-seconds.
+service: 100%	(left_x:   50   top_y:  108   width:  242   height:  271)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_18.jpg: Predicted in 2.078000 milli-seconds.
+service: 100%	(left_x:   50   top_y:  108   width:  251   height:  275)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/45_20.jpg: Predicted in 2.200000 milli-seconds.
+service: 100%	(left_x:   61   top_y:  120   width:  249   height:  267)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_2.jpg: Predicted in 2.335000 milli-seconds.
+become_1: 100%	(left_x:   77   top_y:   16   width:  109   height:  157)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_3.jpg: Predicted in 2.401000 milli-seconds.
+become_1: 98%	(left_x:   66   top_y:   30   width:   80   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_1.jpg: Predicted in 2.245000 milli-seconds.
+become_1: 97%	(left_x:   95   top_y:   66   width:   71   height:  121)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_6.jpg: Predicted in 2.156000 milli-seconds.
+become_1: 100%	(left_x:   49   top_y:   85   width:  116   height:  156)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_5.jpg: Predicted in 2.170000 milli-seconds.
+become_2: 99%	(left_x:   79   top_y:   65   width:  106   height:  110)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_4.jpg: Predicted in 2.018000 milli-seconds.
+become_2: 93%	(left_x:   31   top_y:   10   width:  136   height:  127)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_8.jpg: Predicted in 2.146000 milli-seconds.
+become_2: 99%	(left_x:   17   top_y:   34   width:  153   height:  152)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_7.jpg: Predicted in 2.092000 milli-seconds.
+become_1: 100%	(left_x:   41   top_y:   74   width:  114   height:  168)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_9.jpg: Predicted in 2.134000 milli-seconds.
+become_2: 99%	(left_x:   20   top_y:   37   width:  156   height:  129)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_12.jpg: Predicted in 2.407000 milli-seconds.
+become_1: 100%	(left_x:   37   top_y:   93   width:  126   height:  231)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_10.jpg: Predicted in 2.180000 milli-seconds.
+become_1: 98%	(left_x:   78   top_y:   90   width:   85   height:  106)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_11.jpg: Predicted in 2.219000 milli-seconds.
+become_1: 100%	(left_x:   34   top_y:  103   width:  129   height:  227)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_15.jpg: Predicted in 2.260000 milli-seconds.
+become_2: 100%	(left_x:   44   top_y:  101   width:  129   height:  222)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_14.jpg: Predicted in 2.287000 milli-seconds.
+become_1: 100%	(left_x:   59   top_y:   90   width:  109   height:  237)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_13.jpg: Predicted in 2.334000 milli-seconds.
+become_1: 100%	(left_x:   49   top_y:   96   width:  115   height:  232)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_16.jpg: Predicted in 2.168000 milli-seconds.
+become_2: 100%	(left_x:   26   top_y:  111   width:  165   height:  200)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_18.jpg: Predicted in 2.166000 milli-seconds.
+become_2: 100%	(left_x:   29   top_y:  116   width:  170   height:  192)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_17.jpg: Predicted in 2.262000 milli-seconds.
+become_2: 100%	(left_x:   15   top_y:  118   width:  179   height:  187)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_20.jpg: Predicted in 2.469000 milli-seconds.
+become_2: 100%	(left_x:   33   top_y:  114   width:  155   height:  206)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/46_19.jpg: Predicted in 2.280000 milli-seconds.
+become_2: 100%	(left_x:   22   top_y:  114   width:  172   height:  197)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_3.jpg: Predicted in 2.270000 milli-seconds.
+highly: 100%	(left_x:   80   top_y:  102   width:  134   height:  113)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_2.jpg: Predicted in 2.294000 milli-seconds.
+highly: 98%	(left_x:   95   top_y:  100   width:  134   height:  118)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_4.jpg: Predicted in 2.279000 milli-seconds.
+highly: 100%	(left_x:  235   top_y:   91   width:  122   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_1.jpg: Predicted in 2.226000 milli-seconds.
+highly: 100%	(left_x:  110   top_y:  104   width:  120   height:  114)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_7.jpg: Predicted in 2.256000 milli-seconds.
+highly: 99%	(left_x:  202   top_y:   98   width:  124   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_6.jpg: Predicted in 2.208000 milli-seconds.
+highly: 100%	(left_x:  224   top_y:   96   width:  117   height:  110)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_5.jpg: Predicted in 2.374000 milli-seconds.
+highly: 99%	(left_x:  226   top_y:   97   width:  119   height:  109)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_8.jpg: Predicted in 2.475000 milli-seconds.
+highly: 100%	(left_x:  180   top_y:  104   width:  111   height:  116)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_10.jpg: Predicted in 2.219000 milli-seconds.
+highly: 99%	(left_x:  128   top_y:  103   width:  121   height:  115)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_9.jpg: Predicted in 2.364000 milli-seconds.
+highly: 100%	(left_x:  140   top_y:  100   width:  130   height:  117)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_11.jpg: Predicted in 2.394000 milli-seconds.
+highly: 100%	(left_x:   77   top_y:  220   width:  150   height:  154)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_12.jpg: Predicted in 2.427000 milli-seconds.
+highly: 100%	(left_x:  153   top_y:  231   width:  156   height:  144)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_14.jpg: Predicted in 2.372000 milli-seconds.
+highly: 100%	(left_x:  100   top_y:  187   width:  157   height:  161)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_15.jpg: Predicted in 2.404000 milli-seconds.
+highly: 99%	(left_x:  173   top_y:  217   width:  158   height:  147)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_13.jpg: Predicted in 2.246000 milli-seconds.
+highly: 100%	(left_x:  136   top_y:  230   width:  161   height:  143)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_16.jpg: Predicted in 2.473000 milli-seconds.
+highly: 100%	(left_x:  181   top_y:  215   width:  159   height:  150)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_18.jpg: Predicted in 2.654000 milli-seconds.
+highly: 100%	(left_x:   86   top_y:  217   width:  153   height:  159)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_17.jpg: Predicted in 2.521000 milli-seconds.
+highly: 100%	(left_x:  166   top_y:  218   width:  156   height:  147)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_19.jpg: Predicted in 2.546000 milli-seconds.
+highly: 100%	(left_x:  128   top_y:  219   width:  162   height:  151)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_2.jpg: Predicted in 2.345000 milli-seconds.
+likely_1: 97%	(left_x:   56   top_y:   28   width:  114   height:  124)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/47_20.jpg: Predicted in 2.456000 milli-seconds.
+highly: 100%	(left_x:  119   top_y:  218   width:  158   height:  153)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_1.jpg: Predicted in 2.505000 milli-seconds.
+likely_1: 98%	(left_x:   94   top_y:   14   width:  106   height:  122)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_3.jpg: Predicted in 2.331000 milli-seconds.
+likely_1: 96%	(left_x:   61   top_y:   16   width:  119   height:   75)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_6.jpg: Predicted in 2.276000 milli-seconds.
+likely_2: 96%	(left_x:  152   top_y:   69   width:   77   height:   87)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_4.jpg: Predicted in 2.612000 milli-seconds.
+likely_1: 93%	(left_x:   73   top_y:   19   width:  106   height:  120)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_5.jpg: Predicted in 2.602000 milli-seconds.
+likely_1: 99%	(left_x:   79   top_y:   35   width:  117   height:   85)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_10.jpg: Predicted in 2.708000 milli-seconds.
+likely_2: 97%	(left_x:  161   top_y:   74   width:   79   height:  101)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_7.jpg: Predicted in 2.601000 milli-seconds.
+likely_2: 90%	(left_x:  154   top_y:   69   width:   75   height:   89)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_8.jpg: Predicted in 2.448000 milli-seconds.
+likely_2: 88%	(left_x:  148   top_y:   55   width:   80   height:  157)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_9.jpg: Predicted in 2.511000 milli-seconds.
+likely_2: 98%	(left_x:  163   top_y:   70   width:   77   height:   92)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_11.jpg: Predicted in 2.435000 milli-seconds.
+likely_1: 100%	(left_x:   76   top_y:  107   width:  115   height:  148)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_14.jpg: Predicted in 2.572000 milli-seconds.
+likely_1: 100%	(left_x:   63   top_y:   94   width:   97   height:  160)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_13.jpg: Predicted in 2.536000 milli-seconds.
+likely_1: 100%	(left_x:   51   top_y:   52   width:  117   height:  141)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_12.jpg: Predicted in 2.377000 milli-seconds.
+likely_1: 100%	(left_x:   74   top_y:   54   width:  124   height:  136)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_16.jpg: Predicted in 2.337000 milli-seconds.
+likely_2: 100%	(left_x:   97   top_y:   97   width:  112   height:  235)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_18.jpg: Predicted in 2.357000 milli-seconds.
+likely_2: 100%	(left_x:  118   top_y:  102   width:  115   height:  238)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_15.jpg: Predicted in 2.208000 milli-seconds.
+likely_1: 100%	(left_x:   77   top_y:   77   width:  121   height:  149)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_17.jpg: Predicted in 2.604000 milli-seconds.
+likely_2: 100%	(left_x:  111   top_y:   89   width:  102   height:  231)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/end_11.jpg: Predicted in 2.351000 milli-seconds.
+end: 100%	(left_x:   47   top_y:  141   width:  334   height:  132)
+Enter Image Path: /content/drive/MyDrive/sunghyun/darknet/data/obj/48_20.jpg: Predicted in 2.559000 milli-seconds.
+likely_2: 100%	(left_x:  114   top_y:   86   width:  109   height:  241)
