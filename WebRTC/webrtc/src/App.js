@@ -6,11 +6,9 @@ function App() {
   const localVideoRef = useRef(null);
   const remoteVideoRef = useRef(null);
   const [socket, setSocket] = useState(null);
-  // const peerConnection = new RTCPeerConnection();
   const peerConnection = useRef(new RTCPeerConnection());
 
   useEffect(() => {
-    // const newSocket = io('https://localhost:3000', { secure: true });
     const newSocket = io("https://localhost:3001", {
       withCredentials: true,
       secure: true,
@@ -28,13 +26,14 @@ function App() {
       })
       .catch((error) => console.error("Error accessing media devices.", error));
 
-    peerConnection.onicecandidate = (event) => {
+    // 이벤트 핸들러를 peerConnection.current에 올바르게 설정합니다.
+    peerConnection.current.onicecandidate = (event) => {
       if (event.candidate) {
         newSocket.emit("candidate", event.candidate);
       }
     };
 
-    peerConnection.ontrack = (event) => {
+    peerConnection.current.ontrack = (event) => {
       remoteVideoRef.current.srcObject = event.streams[0];
     };
 
@@ -43,7 +42,7 @@ function App() {
         new RTCSessionDescription(offer)
       );
       const answer = await peerConnection.current.createAnswer();
-      await peerConnection.setLocalDescription(
+      await peerConnection.current.setLocalDescription(
         new RTCSessionDescription(answer)
       );
       newSocket.emit("answer", answer);
@@ -56,7 +55,9 @@ function App() {
     });
 
     newSocket.on("candidate", async (candidate) => {
-      await peerConnection.addIceCandidate(new RTCIceCandidate(candidate));
+      await peerConnection.current.addIceCandidate(
+        new RTCIceCandidate(candidate)
+      );
     });
 
     return () => {
@@ -65,16 +66,16 @@ function App() {
   }, []);
 
   const startCall = async () => {
-    if (!peerConnection.current) {
-      console.error("peerConnection.current is not defined.");
-      return;
-    }
-
     try {
+      // Offer 생성
       const offer = await peerConnection.current.createOffer();
+
+      // Local description 설정
       await peerConnection.current.setLocalDescription(
         new RTCSessionDescription(offer)
       );
+
+      // Socket을 통해 offer 전송
       socket.emit("offer", offer);
     } catch (error) {
       console.error("Error in startCall:", error);
