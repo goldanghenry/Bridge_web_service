@@ -21,7 +21,7 @@ function App() {
     setSocket(newSocket);
 
     navigator.mediaDevices
-      .getUserMedia({ video: true })
+      .getUserMedia({ video: true, audio: true })
       .then((stream) => {
         localVideoRef.current.srcObject = stream;
         stream.getTracks().forEach((track) => {

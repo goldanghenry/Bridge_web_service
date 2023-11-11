@@ -21,7 +21,7 @@ const io = socketIo(server, {
     origin: [
       "https://localhost:3000",
       "https://192.168.240.155:3000",
-      "https://localhost:3000",
+      "https://localhost:3001",
       "https://192.168.240.155:3001",
     ], // 'http'와 'https' 둘 다 허용
     methods: ["GET", "POST"],
