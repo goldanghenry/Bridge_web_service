@@ -15,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set HTTPS=true&&set SSL_CRT_FILE=C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/192.168.240.155+1.pem&&set SSL_KEY_FILE=C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/192.168.240.155+1-key.pem&&react-scripts start",
+    "start": "set HTTPS=true&&set SSL_CRT_FILE=C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/localhost+1.pem&&set SSL_KEY_FILE=C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/localhost+1-key.pem&&react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

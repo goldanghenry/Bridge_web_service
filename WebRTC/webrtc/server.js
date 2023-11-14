@@ -6,11 +6,11 @@ const socketIo = require("socket.io");
 const app = express();
 
 const privateKey = fs.readFileSync(
-  "C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/192.168.240.155+1-key.pem",
+  "C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/localhost+1-key.pem",
   "utf8"
 );
 const certificate = fs.readFileSync(
-  "C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/192.168.240.155+1.pem",
+  "C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/localhost+1.pem",
   "utf8"
 );
 const credentials = { key: privateKey, cert: certificate };
@@ -20,9 +20,11 @@ const io = socketIo(server, {
   cors: {
     origin: [
       "https://localhost:3000",
-      "https://192.168.240.155:3000",
+      "https://192.168.164.155:3000",
+      "https://192.168.0.3:3000",
       "https://localhost:3001",
-      "https://192.168.240.155:3001",
+      "https://192.168.164.155:3001",
+      "https://192.168.0.3:3001",
     ], // 'http'와 'https' 둘 다 허용
     methods: ["GET", "POST"],
     credentials: true, // CORS 요청 시 인증 정보를 허용
@@ -42,6 +44,10 @@ io.on("connection", (socket) => {
 
   socket.on("candidate", (candidate) => {
     socket.broadcast.emit("candidate", candidate);
+  });
+
+  socket.on("chatMessage", (msg) => {
+    socket.broadcast.emit("chatMessage", msg);
   });
 
   socket.on("disconnect", () => {

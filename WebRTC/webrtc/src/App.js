@@ -6,11 +6,22 @@ function App() {
   const localVideoRef = useRef(null);
   const remoteVideoRef = useRef(null);
   const [socket, setSocket] = useState(null);
+  const [message, setMessage] = useState("");
+  const [receivedMessages, setReceivedMessages] = useState([]);
 
   const peerConnectionConfig = {
     iceServers: [{ urls: "stun:stun.l.google.com:19302" }],
   };
   const peerConnection = useRef(new RTCPeerConnection(peerConnectionConfig));
+
+  const sendMessage = () => {
+    if (socket && message) {
+      const messageObject = { text: message, sender: "me" };
+      socket.emit("chatMessage", messageObject);
+      setReceivedMessages((prevMessages) => [...prevMessages, messageObject]);
+      setMessage("");
+    }
+  };
 
   useEffect(() => {
     const newSocket = io("https://localhost:3001", {
@@ -64,6 +75,13 @@ function App() {
       );
     });
 
+    newSocket.on("chatMessage", (messageObject) => {
+      setReceivedMessages((prevMessages) => [
+        ...prevMessages,
+        { ...messageObject, sender: "them" },
+      ]);
+    });
+
     return () => {
       newSocket.close();
     };
@@ -91,6 +109,23 @@ function App() {
       <video ref={localVideoRef} autoPlay playsInline />
       <video ref={remoteVideoRef} autoPlay playsInline />
       <button onClick={startCall}>Start Call</button>
+      {/* 채팅 인터페이스 추가 */}
+      <input
+        value={message} // 여기서 message는 현재 입력된 메시지를 나타내는 상태
+        onChange={(e) => setMessage(e.target.value)} // 입력 필드가 변경될 때 상태 업데이트
+        type="text"
+      />
+      <button onClick={sendMessage}>Send Message</button>{" "}
+      <div>
+        {receivedMessages.map((msg, index) => (
+          <p
+            key={index}
+            className={msg.sender === "me" ? "my-message" : "their-message"}
+          >
+            {msg.sender}: {msg.text}
+          </p>
+        ))}
+      </div>
     </div>
   );
 }

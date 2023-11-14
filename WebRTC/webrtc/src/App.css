@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.my-message {
+  text-align: right;
+  color: blue;
+}
+
+.their-message {
+  text-align: left;
+  color: green;
+}
