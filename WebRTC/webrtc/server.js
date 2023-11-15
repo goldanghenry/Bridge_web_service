@@ -4,6 +4,11 @@ const express = require("express");
 const socketIo = require("socket.io");
 
 const app = express();
+app.use(express.static("public"));
+
+app.get("/", (req, res) => {
+  res.sendFile("index.html", { root: "public" });
+});
 
 const privateKey = fs.readFileSync(
   "C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/localhost+1-key.pem",
@@ -21,11 +26,9 @@ const io = socketIo(server, {
     origin: [
       "https://localhost:3000",
       "https://192.168.164.155:3000",
-      "https://192.168.0.3:3000",
       "https://localhost:3001",
       "https://192.168.164.155:3001",
-      "https://192.168.0.3:3001",
-    ], // 'http'와 'https' 둘 다 허용
+    ],
     methods: ["GET", "POST"],
     credentials: true, // CORS 요청 시 인증 정보를 허용
   },
