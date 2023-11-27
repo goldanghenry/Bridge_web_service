@@ -1,8 +1,45 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import io from "socket.io-client";
 import "./App.css";
+import "./meetingPage.scss";
+import logoImg from "../images/bridge.png";
+import {
+  BsCameraVideoFill,
+  BsFillCameraVideoOffFill,
+  BsFillMicFill,
+  BsFillChatLeftTextFill,
+  BsFillMicMuteFill,
+} from "react-icons/bs";
+import { MdCallEnd } from "react-icons/md";
 
 function MeetingPage() {
+  // FRONT CODE
+  const [isChatOpen, setChatOpen] = useState(false);
+  const [isMicOpen, setMicOpen] = useState(false);
+  const [isCameraOpen, setCameraOpen] = useState(false);
+
+  const Navigate = useNavigate();
+
+  const NavigateToMain = () => {
+    Navigate("/mainPage");
+  };
+
+  const toggleChat = () => {
+    console.log(isChatOpen);
+    setChatOpen(!isChatOpen);
+  };
+
+  const toggleVideo = () => {
+    setCameraOpen(!isCameraOpen);
+  };
+
+  const toggleMic = () => {
+    setMicOpen(!isMicOpen);
+  };
+
+  // FRONT CODE END
+
   const localVideoRef = useRef(null);
   const remoteVideoRef = useRef(null);
   const [socket, setSocket] = useState(null);
@@ -105,7 +142,7 @@ function MeetingPage() {
   };
 
   return (
-    <div className="meeting-page">
+    /*<div className="meeting-page">
       <video ref={localVideoRef} autoPlay playsInline />
       <video ref={remoteVideoRef} autoPlay playsInline />
       <button onClick={startCall}>Start Call</button>
@@ -125,6 +162,79 @@ function MeetingPage() {
           </p>
         ))}
       </div>
+    </div>*/
+
+    <div className="meetpageBackground">
+      <div className="head-body-functions">
+        <div className="head">
+          <div className="logo">
+            <img
+              className="logoImage"
+              src={logoImg}
+              alt="bridge-logo-img"
+            ></img>
+          </div>
+          <div className="title">Bridge</div>
+        </div>
+        <div className="body1">
+          <div className="peer1Video">
+            <video ref={localVideoRef} autoPlay playsInline />
+          </div>
+          <div className="peer2Video">
+            <video ref={remoteVideoRef} autoPlay playsInline />
+          </div>
+          <button onClick={startCall}>Start Call</button>
+        </div>
+        <div className="functions">
+          <div className="cameraBtnDiv">
+            <button onClick={toggleVideo} className="cameraBtn">
+              {isCameraOpen ? (
+                <BsCameraVideoFill className="cameraIcon" />
+              ) : (
+                <BsFillCameraVideoOffFill className="cameraIcon" />
+              )}
+            </button>
+          </div>
+          <div className="micBtnDiv">
+            <button onClick={toggleMic} className="micBtn">
+              {isMicOpen ? (
+                <BsFillMicFill className="micIcon" />
+              ) : (
+                <BsFillMicMuteFill className="micIcon" />
+              )}
+            </button>
+          </div>
+          <div className="textBtnDiv">
+            <button onClick={toggleChat} className="textBtn">
+              <BsFillChatLeftTextFill className="textIcon" />
+            </button>
+          </div>
+          <div className="endBtnDiv">
+            <button className="endBtn" onClick={NavigateToMain}>
+              <MdCallEnd className="endIcon"></MdCallEnd>
+            </button>
+          </div>
+        </div>
+      </div>
+      {isChatOpen && (
+        <div className="chatBoxOpen">
+          <div className="chatBoxstyle">
+            <div className="chat-head">회의메세지</div>
+            <div className="chatLine"></div>
+            <div className="chat-message">
+              <div className="user1">
+                <div className="user1-name">user1</div>
+                <div className="user1-message"></div>
+              </div>
+              <div className="user2">
+                <div className="user2-message"></div>
+                <div className="user2-name">user2</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+      {!isChatOpen && <div className="chatBox"></div>}
     </div>
   );
 }

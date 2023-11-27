@@ -25,9 +25,9 @@ const io = socketIo(server, {
   cors: {
     origin: [
       "https://localhost:3000",
-      "https://192.168.164.155:3000",
+      "https://192.168.114.155:3000",
       "https://localhost:3001",
-      "https://192.168.164.155:3001",
+      "https://192.168.114.155:3001",
     ],
     methods: ["GET", "POST"],
     credentials: true, // CORS 요청 시 인증 정보를 허용
