@@ -61,7 +61,7 @@ function MeetingPage() {
   };
 
   useEffect(() => {
-    const newSocket = io("https://localhost:3001", {
+    const newSocket = io("https://bridgepeople.site", {
       withCredentials: true,
       secure: true,
     });

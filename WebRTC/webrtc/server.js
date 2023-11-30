@@ -1,6 +1,5 @@
-const fs = require("fs");
-const https = require("https");
 const express = require("express");
+const http = require("http");
 const socketIo = require("socket.io");
 
 const app = express();
@@ -10,27 +9,20 @@ app.get("/", (req, res) => {
   res.sendFile("index.html", { root: "public" });
 });
 
-const privateKey = fs.readFileSync(
-  "C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/localhost+1-key.pem",
-  "utf8"
-);
-const certificate = fs.readFileSync(
-  "C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/localhost+1.pem",
-  "utf8"
-);
-const credentials = { key: privateKey, cert: certificate };
-const server = https.createServer(credentials, app);
+// HTTPS 관련 코드를 제거하고 HTTP 서버를 생성
+const server = http.createServer(app);
 
 const io = socketIo(server, {
   cors: {
     origin: [
-      "https://localhost:3000",
-      "https://192.168.114.155:3000",
-      "https://localhost:3001",
-      "https://192.168.114.155:3001",
+      // "https://localhost:3000",
+      // "https://192.168.114.155:3000",
+      // "https://localhost:8080",
+      // "https://192.168.114.155:8080",
+      "https://bridgepeople.site",
     ],
     methods: ["GET", "POST"],
-    credentials: true, // CORS 요청 시 인증 정보를 허용
+    credentials: true,
   },
 });
 

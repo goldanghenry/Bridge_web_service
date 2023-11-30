@@ -7,15 +7,16 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "cors": "^2.8.5",
+    "express": "^4.18.2",
     "express-session": "^1.17.3",
     "mysql": "^2.18.1",
-    "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
     "react-router-dom": "^6.20.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "resolve-url-loader": "^5.0.0",
+    "sass": "^1.69.5",
     "sass-loader": "^13.3.2",
     "session-file-store": "^1.5.0",
     "socket.io": "^4.7.2",
@@ -23,7 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set HTTPS=true&&set SSL_CRT_FILE=C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/localhost+1.pem&&set SSL_KEY_FILE=C:/Users/x/Desktop/fp/Bridge_web_service/WebRTC/webrtc/cert/localhost+1-key.pem&&react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
