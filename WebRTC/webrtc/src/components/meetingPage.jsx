@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import io from "socket.io-client";
-import "./App.css";
+//import "./App.css";
 import "./meetingPage.scss";
 import logoImg from "../images/bridge.png";
 import {
@@ -11,18 +11,28 @@ import {
   BsFillChatLeftTextFill,
   BsFillMicMuteFill,
 } from "react-icons/bs";
-import { MdCallEnd } from "react-icons/md";
+import { FaPhoneSlash, FaPhone } from "react-icons/fa6";
+import Swal from "sweetalert2";
 
 function MeetingPage() {
   // FRONT CODE
   const [isChatOpen, setChatOpen] = useState(false);
-  const [isMicOpen, setMicOpen] = useState(false);
-  const [isCameraOpen, setCameraOpen] = useState(false);
+  const [isMicOpen, setMicOpen] = useState(true);
+  const [isCameraOpen, setCameraOpen] = useState(true);
 
   const Navigate = useNavigate();
 
   const NavigateToMain = () => {
-    Navigate("/mainPage");
+    Swal.fire({
+      title: "통화 종료 하시겠습니까 ?",
+      showCancelButton: true,
+      icon: "question",
+    }).then((result) => {
+      /* Read more about isConfirmed, isDenied below */
+      if (result.isConfirmed) {
+        Navigate("/");
+      }
+    });
   };
 
   const toggleChat = () => {
@@ -31,11 +41,15 @@ function MeetingPage() {
   };
 
   const toggleVideo = () => {
-    setCameraOpen(!isCameraOpen);
+    const newCameraState = !isCameraOpen;
+    setCameraOpen(newCameraState);
+    socket.emit("cameraStatusChanged", newCameraState);
   };
 
   const toggleMic = () => {
-    setMicOpen(!isMicOpen);
+    const newMicState = !isMicOpen;
+    setMicOpen(newMicState);
+    socket.emit("micStatusChanged", newMicState);
   };
 
   // FRONT CODE END
@@ -43,25 +57,25 @@ function MeetingPage() {
   const localVideoRef = useRef(null);
   const remoteVideoRef = useRef(null);
   const [socket, setSocket] = useState(null);
-  const [message, setMessage] = useState("");
-  const [receivedMessages, setReceivedMessages] = useState([]);
+  //const [message, setMessage] = useState("");
+  //const [receivedMessages, setReceivedMessages] = useState([]);
 
   const peerConnectionConfig = {
     iceServers: [{ urls: "stun:stun.l.google.com:19302" }],
   };
   const peerConnection = useRef(new RTCPeerConnection(peerConnectionConfig));
 
-  const sendMessage = () => {
-    if (socket && message) {
-      const messageObject = { text: message, sender: "me" };
-      socket.emit("chatMessage", messageObject);
-      setReceivedMessages((prevMessages) => [...prevMessages, messageObject]);
-      setMessage("");
-    }
-  };
+  // const sendMessage = () => {
+  //   if (socket && message) {
+  //     const messageObject = { text: message, sender: "me" };
+  //     socket.emit("chatMessage", messageObject);
+  //     setReceivedMessages((prevMessages) => [...prevMessages, messageObject]);
+  //     setMessage("");
+  //   }
+  // };
 
   useEffect(() => {
-    const newSocket = io("https://localhost:3001", {
+    const newSocket = io("https://bridgepeople.site", {
       withCredentials: true,
       secure: true,
     });
@@ -69,7 +83,7 @@ function MeetingPage() {
     setSocket(newSocket);
 
     navigator.mediaDevices
-      .getUserMedia({ video: true, audio: true })
+      .getUserMedia({ video: isCameraOpen, audio: isMicOpen })
       .then((stream) => {
         localVideoRef.current.srcObject = stream;
         stream.getTracks().forEach((track) => {
@@ -112,17 +126,26 @@ function MeetingPage() {
       );
     });
 
-    newSocket.on("chatMessage", (messageObject) => {
-      setReceivedMessages((prevMessages) => [
-        ...prevMessages,
-        { ...messageObject, sender: "them" },
-      ]);
+    newSocket.on("cameraStatusChanged", (newCameraState) => {
+      setCameraOpen(newCameraState);
+    });
+    newSocket.on("micStatusChanged", (newMicState) => {
+      setMicOpen(newMicState);
     });
 
+    // newSocket.on("chatMessage", (messageObject) => {
+    //   setReceivedMessages((prevMessages) => [
+    //     ...prevMessages,
+    //     { ...messageObject, sender: "them" },
+    //   ]);
+    // });
+
     return () => {
+      newSocket.off("cameraStatusChanged");
+      newSocket.off("micStatusChanged");
       newSocket.close();
     };
-  }, []);
+  }, [isCameraOpen, isMicOpen]);
 
   const startCall = async () => {
     try {
@@ -178,14 +201,28 @@ function MeetingPage() {
         </div>
         <div className="body1">
           <div className="peer1Video">
-            <video ref={localVideoRef} autoPlay playsInline />
+            <video
+              className="video1"
+              ref={localVideoRef}
+              autoPlay
+              playsInline
+            />
           </div>
           <div className="peer2Video">
-            <video ref={remoteVideoRef} autoPlay playsInline />
+            <video
+              className="video2"
+              ref={remoteVideoRef}
+              autoPlay
+              playsInline
+            />
           </div>
-          <button onClick={startCall}>Start Call</button>
         </div>
         <div className="functions">
+          <div className="startCallBtnDiv">
+            <button onClick={startCall} className="startCallBtn">
+              <FaPhone className="startIcon"></FaPhone>
+            </button>
+          </div>
           <div className="cameraBtnDiv">
             <button onClick={toggleVideo} className="cameraBtn">
               {isCameraOpen ? (
@@ -211,7 +248,7 @@ function MeetingPage() {
           </div>
           <div className="endBtnDiv">
             <button className="endBtn" onClick={NavigateToMain}>
-              <MdCallEnd className="endIcon"></MdCallEnd>
+              <FaPhoneSlash className="endIcon"></FaPhoneSlash>
             </button>
           </div>
         </div>
