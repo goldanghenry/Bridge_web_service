@@ -1,0 +1,86 @@
+.pageBackground {
+  $color: #f3fbff;
+  background-color: $color;
+  //border: 1px solid black;
+  height: 100vh;
+  width: 100vw;
+  .head {
+    //border:1px solid black;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    .logo {
+      //border:1px solid black;
+      width: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 5px;
+      .logoImage {
+        height: 50px;
+      }
+    }
+    .title {
+      //border: 1px solid black;
+      font-family: RacingSansOne-Regular;
+      font-size: 40px;
+      color: #2c90c8;
+      margin-left: 5px;
+    }
+  }
+  .body {
+    //border:1px solid black;
+    height: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .videoSpot {
+      border: 0;
+      height: 560px;
+      width: 740px;
+      border-radius: 20px;
+      margin-right: 100px;
+      .video {
+        height: 560px;
+        width: 740px;
+        border-radius: 20px;
+        transform: scaleX(-1);
+      }
+    }
+    .textButtonSpot {
+      //border:1px solid black;
+      height: 700px;
+      width: 700px;
+      margin-left: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .text {
+        //border:1px solid black;
+        font-size: 40px;
+        font-weight: 800;
+        color: #2c90c8;
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+      }
+      .joinButtonDiv {
+        //border:1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .joinButton {
+          height: 60px;
+          width: 200px;
+          background-color: #c5e6f9;
+          color: #2c90c8;
+          font-size: 25px;
+          font-weight: 700;
+          border-radius: 40px;
+          border: none;
+          box-shadow: 0px 4px 4px 2px #dedede;
+        }
+      }
+    }
+  }
+}
