@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>음성 녹음</title>
+</head>
+<body>
+    <h1>음성 녹음</h1>
+    
+    <button id="startRecording">녹음 시작</button>
+    <button id="stopRecording" disabled>녹음 종료</button>
+    <p id="generatedText">stt result :</p>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const startRecordingButton = document.getElementById('startRecording');
+        const stopRecordingButton = document.getElementById('stopRecording');
+        const generatedText = document.getElementById('generatedText');
+
+        let mediaRecorder;
+        let audioChunks = [];
+
+        navigator.mediaDevices.getUserMedia({ audio: true })
+            .then(stream => {
+                mediaRecorder = new MediaRecorder(stream);
+
+                mediaRecorder.ondataavailable = event => {
+                    if (event.data.size > 0) {
+                        audioChunks.push(event.data);
+                    }
+                };
+
+                mediaRecorder.onstop = async () => {
+                    const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                    const audioUrl = URL.createObjectURL(audioBlob);
+
+                    // 전송을 위한 FormData 생성
+                    const formData = new FormData();
+                    formData.append('audio', audioBlob, 'recorded_audio.wav');
+
+                    // 녹음된 음성 파일을 Flask 서버로 전송
+                    try {
+                        const response = await fetch('/upload-audio', {
+                            method: 'POST',
+                            body: formData
+                        });
+
+                        const data = await response.text();
+                        console.log('서버 응답:', data);
+
+                        // 결과를 페이지에 표시
+                        generatedText.innerText = data;
+                    } catch (error) {
+                        console.error('Error during fetch:', error);
+                    } finally {
+                        // 페이지 리로드
+                        //location.reload();
+                    }
+
+                    audioChunks = [];
+                };
+            })
+            .catch(error => console.error('Error accessing microphone:', error));
+
+        startRecordingButton.addEventListener('click', () => {
+            startRecordingButton.disabled = true;
+            stopRecordingButton.disabled = false;
+
+            audioChunks = [];
+            mediaRecorder.start();
+        });
+
+        stopRecordingButton.addEventListener('click', () => {
+            startRecordingButton.disabled = false;
+            stopRecordingButton.disabled = true;
+
+            mediaRecorder.stop();
+        });
+    });
+
+    </script>
+</body>
+</html>
