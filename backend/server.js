@@ -25,7 +25,6 @@ function sendWebcamDataToFlask(dataUrl) {
 // 클라이언트에서 웹캠 데이터를 받아오고 Flask 서버로 전송
 // 이미지 데이터를 받아옴
 
-
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {

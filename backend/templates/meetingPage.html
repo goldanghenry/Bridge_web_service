@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>음성 및 비디오 녹화</title>
+</head>
+<body>
+    <h1>음성 및 비디오 녹화</h1>
+    
+    <button id="startRecording">녹화 시작</button>
+    <button id="stopRecording" disabled>녹화 종료</button>
+    <button id="startVideoRecording">비디오 녹화 시작</button>
+    <button id="stopVideoRecording" disabled>비디오 녹화 종료</button>
+    <p id="generatedText">STT 결과:</p>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const startRecordingButton = document.getElementById('startRecording');
+            const stopRecordingButton = document.getElementById('stopRecording');
+            const startVideoRecordingButton = document.getElementById('startVideoRecording');
+            const stopVideoRecordingButton = document.getElementById('stopVideoRecording');
+            const generatedText = document.getElementById('generatedText');
+
+            let mediaRecorder;
+            let audioChunks = [];
+            let videoChunks = [];
+
+            navigator.mediaDevices.getUserMedia({ audio: true, video: true })
+                .then(stream => {
+                    mediaRecorder = new MediaRecorder(stream);
+
+                    mediaRecorder.ondataavailable = event => {
+                        if (event.data.size > 0) {
+                            if (event.data.type.includes('audio')) {
+                                audioChunks.push(event.data);
+                            } else if (event.data.type.includes('video')) {
+                                videoChunks.push(event.data);
+                            }
+                        }
+                    };
+
+                    mediaRecorder.onstop = async () => {
+                        if (audioChunks.length > 0) {
+                            const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                            const audioFormData = new FormData();
+                            audioFormData.append('audio', audioBlob, 'recorded_audio.wav');
+
+                            try {
+                                const audioResponse = await fetch('http://localhost:5000/upload-audio', {
+                                    method: 'POST',
+                                    body: audioFormData
+                                });
+
+                                const audioData = await audioResponse.text();
+                                console.log('오디오 서버 응답:', audioData);
+
+                                generatedText.innerText = audioData;
+                            } catch (audioError) {
+                                console.error('오디오 업로드 중 오류:', audioError);
+                            }
+                        }
+
+                        if (videoChunks.length > 0) {
+                            const videoBlob = new Blob(videoChunks, { type: 'video/webm' });
+                            const videoFormData = new FormData();
+                            videoFormData.append('video', videoBlob, 'recorded_video.webm');
+
+                            try {
+                                const videoResponse = await fetch('http://localhost:5000/upload-video', {
+                                    method: 'POST',
+                                    body: videoFormData
+                                });
+
+                                const videoData = await videoResponse.text();
+                                console.log('비디오 서버 응답:', videoData);
+
+                                // 여기에 비디오 결과를 표시하는 코드 추가
+                            } catch (videoError) {
+                                console.error('비디오 업로드 중 오류:', videoError);
+                            }
+                        }
+
+                        audioChunks = [];
+                        videoChunks = [];
+                    };
+                })
+                .catch(error => console.error('마이크 또는 카메라에 접근 중 오류 발생:', error));
+
+            startRecordingButton.addEventListener('click', () => {
+                startRecordingButton.disabled = true;
+                stopRecordingButton.disabled = false;
+
+                audioChunks = [];
+                mediaRecorder.start();
+            });
+
+            stopRecordingButton.addEventListener('click', () => {
+                startRecordingButton.disabled = false;
+                stopRecordingButton.disabled = true;
+
+                mediaRecorder.stop();
+            });
+
+            startVideoRecordingButton.addEventListener('click', () => {
+                startVideoRecordingButton.disabled = true;
+                stopVideoRecordingButton.disabled = false;
+
+                videoChunks = [];
+                mediaRecorder.start();
+            });
+
+            stopVideoRecordingButton.addEventListener('click', () => {
+                startVideoRecordingButton.disabled = false;
+                stopVideoRecordingButton.disabled = true;
+
+                mediaRecorder.stop();
+            });
+        });
+    </script>
+</body>
+</html>

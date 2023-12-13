@@ -41,7 +41,7 @@
 
                     // 녹음된 음성 파일을 Flask 서버로 전송
                     try {
-                        const response = await fetch('/upload-audio', {
+                        const response = fetch('http://localhost:5000/upload-audio', {
                             method: 'POST',
                             body: formData
                         });
